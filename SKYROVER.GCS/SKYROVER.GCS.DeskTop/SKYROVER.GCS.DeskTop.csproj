@@ -1,0 +1,1063 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C6BAD4BD-4CEE-4288-8B04-EAAE6168F620}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>SKYROVER.GCS.DeskTop</RootNamespace>
+    <AssemblyName>SKYROVER.GCS.DeskTop</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>SkyRover_GCS.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="alglibnet2, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\alglibnet2.0.0.0\lib\alglibnet2.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\log4net.2.0.8\lib\net45-full\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Data.Sqlite, Version=4.0.0.0, Culture=neutral, PublicKeyToken=0738eb9f132ed756, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>dll\Mono.Data.Sqlite.dll</HintPath>
+    </Reference>
+    <Reference Include="netDxf, Version=2.0.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\netDXF.2.0.2\lib\net45\netDxf.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=11.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Newtonsoft.Json.11.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenTK">
+      <HintPath>..\..\ExtLibs\OpenTK.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenTK.GLControl">
+      <HintPath>..\..\ExtLibs\OpenTK.GLControl.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="ProjNet, Version=1.2.4455.27045, Culture=neutral, PublicKeyToken=a1f5bdcd9c6f5740, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\ProjNet.1.2\lib\net20\ProjNet.dll</HintPath>
+    </Reference>
+    <Reference Include="SharpDX, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\SharpDX.4.0.1\lib\net45\SharpDX.dll</HintPath>
+    </Reference>
+    <Reference Include="SharpDX.DirectInput, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\SharpDX.DirectInput.4.0.1\lib\net45\SharpDX.DirectInput.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Configuration.Install" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.SQLite, Version=1.0.98.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>dll\System.Data.SQLite.DLL</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.IO.Compression" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Net" />
+    <Reference Include="System.Reactive.Core, Version=3.0.3000.0, Culture=neutral, PublicKeyToken=94bc3704cddfc263, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\System.Reactive.Core.3.1.1\lib\net46\System.Reactive.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reactive.Interfaces, Version=3.0.1000.0, Culture=neutral, PublicKeyToken=94bc3704cddfc263, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\System.Reactive.Interfaces.3.1.1\lib\net45\System.Reactive.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reactive.Linq, Version=3.0.3000.0, Culture=neutral, PublicKeyToken=94bc3704cddfc263, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\System.Reactive.Linq.3.1.1\lib\net46\System.Reactive.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="UIAutomationProvider" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="WindowsFormsIntegration" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Calibration\ConfigAccelerometerCalibration.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Calibration\ConfigAccelerometerCalibration.designer.cs">
+      <DependentUpon>ConfigAccelerometerCalibration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Calibration\ConfigHWCompass.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Calibration\ConfigHWCompass.designer.cs">
+      <DependentUpon>ConfigHWCompass.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Calibration\ConfigMotorTest.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Calibration\ConfigMotorTest.designer.cs">
+      <DependentUpon>ConfigMotorTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Calibration\ConfigRadioInput.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Calibration\ConfigRadioInput.designer.cs">
+      <DependentUpon>ConfigRadioInput.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Common.cs" />
+    <Compile Include="Component1.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Component1.Designer.cs">
+      <DependentUpon>Component1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConfigurationView\ConfigArduplane.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ConfigurationView\ConfigArduplane.designer.cs">
+      <DependentUpon>ConfigArduplane.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\BtnCommand.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\BtnCommand.Designer.cs">
+      <DependentUpon>BtnCommand.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ConnectionControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\ConnectionControl.Designer.cs">
+      <DependentUpon>ConnectionControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ConnectionStats.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\ConnectionStats.Designer.cs">
+      <DependentUpon>ConnectionStats.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\CtlDoSetServoMAV.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\CtlDoSetServoMAV.Designer.cs">
+      <DependentUpon>CtlDoSetServoMAV.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\CtlDigitalCamMAV.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\CtlDigitalCamMAV.Designer.cs">
+      <DependentUpon>CtlDigitalCamMAV.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\CtlHoverMAV.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\CtlHoverMAV.Designer.cs">
+      <DependentUpon>CtlHoverMAV.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ILocationwp.cs" />
+    <Compile Include="Controls\MapTools.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\MapTools.Designer.cs">
+      <DependentUpon>MapTools.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\MavlinkCheckBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\MavlinkCheckBoxBitMask.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\MavlinkComboBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\MavlinkNumericUpDown.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\MAVLinkParamChanged.cs" />
+    <Compile Include="Controls\MyDataGridView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\MyPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\OpenGLtest.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\OpenGLtest2.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\PicBox.cs" />
+    <Compile Include="Controls\QuickView.xaml.cs">
+      <DependentUpon>QuickView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\SITL.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\SITL.designer.cs">
+      <DependentUpon>SITL.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EnvirmentCheck.cs" />
+    <Compile Include="GenericSingleton.cs" />
+    <Compile Include="Grids\GridData.cs" />
+    <Compile Include="HIL\Aircraft.cs" />
+    <Compile Include="HIL\Hil.cs" />
+    <Compile Include="HIL\QuadCopter.cs" />
+    <Compile Include="HIL\Wind.cs" />
+    <Compile Include="HIL\XPlane.cs" />
+    <Compile Include="Joystick\Extensions.cs" />
+    <Compile Include="Joystick\Joystick.cs" />
+    <Compile Include="Joystick\JoystickSetup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Joystick\JoystickSetup.designer.cs">
+      <DependentUpon>JoystickSetup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Joystick\Joy_Button_axis.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Joystick\Joy_Button_axis.designer.cs">
+      <DependentUpon>Joy_Button_axis.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Joystick\Joy_ChangeMode.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Joystick\Joy_ChangeMode.designer.cs">
+      <DependentUpon>Joy_ChangeMode.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Joystick\Joy_Do_Repeat_Relay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Joystick\Joy_Do_Repeat_Relay.designer.cs">
+      <DependentUpon>Joy_Do_Repeat_Relay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Joystick\Joy_Do_Repeat_Servo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Joystick\Joy_Do_Repeat_Servo.designer.cs">
+      <DependentUpon>Joy_Do_Repeat_Servo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Joystick\Joy_Do_Set_Relay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Joystick\Joy_Do_Set_Relay.designer.cs">
+      <DependentUpon>Joy_Do_Set_Relay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Joystick\Joy_Do_Set_Servo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Joystick\Joy_Do_Set_Servo.designer.cs">
+      <DependentUpon>Joy_Do_Set_Servo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Joystick\Joy_Mount_Mode.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Joystick\Joy_Mount_Mode.designer.cs">
+      <DependentUpon>Joy_Mount_Mode.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Joystick\MyJoystickState.cs" />
+    <Compile Include="L10N.cs" />
+    <Compile Include="Log\LogSort.cs" />
+    <Compile Include="MagCalib.cs" />
+    <Compile Include="MainUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainUI.Designer.cs">
+      <DependentUpon>MainUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MapTools\CommandsControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MapTools\CommandsControl.Designer.cs">
+      <DependentUpon>CommandsControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MapTools\setHome.cs" />
+    <Compile Include="MenuItems\FrmLineWayPoints.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuItems\FrmLineWayPoints.Designer.cs">
+      <DependentUpon>FrmLineWayPoints.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MenuItems\frmSetting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuItems\frmSetting.Designer.cs">
+      <DependentUpon>frmSetting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MenuItems\frmWayPointCommands.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuItems\frmWayPointCommands.Designer.cs">
+      <DependentUpon>frmWayPointCommands.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MenuItems\GroundControlStation\OfflineMap.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MenuItems\GroundControlStation\OfflineMap.Designer.cs">
+      <DependentUpon>OfflineMap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MenuItems\SurveyGrid.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuItems\SurveyGrid.Designer.cs">
+      <DependentUpon>SurveyGrid.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MessagePanel\BaseForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MessagePanel\BaseForm.Designer.cs">
+      <DependentUpon>BaseForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MessagePanel\ConfigParameters.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MessagePanel\ConfigParameters.Designer.cs">
+      <DependentUpon>ConfigParameters.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MessagePanel\ImportantInfos.xaml.cs">
+      <DependentUpon>ImportantInfos.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MessagePanel\ImportantMessagePanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MessagePanel\ImportantMessagePanel.Designer.cs">
+      <DependentUpon>ImportantMessagePanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MessagePanel\QuickInfoPanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MessagePanel\QuickInfoPanel.Designer.cs">
+      <DependentUpon>QuickInfoPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Payloads\frmVideo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Payloads\frmVideo.Designer.cs">
+      <DependentUpon>frmVideo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Payloads\NacellControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Payloads\NacellControl.Designer.cs">
+      <DependentUpon>NacellControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Payloads\NacellePanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Payloads\NacellePanel.designer.cs">
+      <DependentUpon>NacellePanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Strings.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Strings.designer.cs">
+      <DependentUpon>Strings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Test\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TripModel.cs" />
+    <Compile Include="UIManager.cs" />
+    <Compile Include="Utilities\Airports.cs" />
+    <Compile Include="Utilities\BoardDetect.cs" />
+    <Compile Include="Utilities\CultureInfoEx.cs" />
+    <Compile Include="Utilities\ExtensionsMP.cs" />
+    <Compile Include="Utilities\Firmware.cs" />
+    <Compile Include="Utilities\GimbalPoint.cs" />
+    <Compile Include="Utilities\httpserver.cs" />
+    <Compile Include="Utilities\PingTools.cs" />
+    <Compile Include="Utilities\SQLiteIpCache.cs" />
+    <Compile Include="Utilities\Tracking.cs" />
+    <Compile Include="Utilities\TripHelper.cs" />
+    <Compile Include="Utilities\UDPVideoShim.cs" />
+    <Compile Include="Utilities\Update.cs" />
+    <Compile Include="Utilities\Win32DeviceMgmt.cs" />
+    <Compile Include="Warnings\CustomWarning.cs" />
+    <Compile Include="Warnings\WarningControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Warnings\WarningEngine.cs" />
+    <Compile Include="Warnings\WarningsManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Warnings\WarningsManager.designer.cs">
+      <DependentUpon>WarningsManager.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Calibration\ConfigAccelerometerCalibration.ar.resx">
+      <DependentUpon>ConfigAccelerometerCalibration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Calibration\ConfigAccelerometerCalibration.az-Latn-AZ.resx">
+      <DependentUpon>ConfigAccelerometerCalibration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Calibration\ConfigAccelerometerCalibration.de-DE.resx">
+      <DependentUpon>ConfigAccelerometerCalibration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Calibration\ConfigAccelerometerCalibration.es-ES.resx">
+      <DependentUpon>ConfigAccelerometerCalibration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Calibration\ConfigAccelerometerCalibration.fr.resx">
+      <DependentUpon>ConfigAccelerometerCalibration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Calibration\ConfigAccelerometerCalibration.id-ID.resx">
+      <DependentUpon>ConfigAccelerometerCalibration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Calibration\ConfigAccelerometerCalibration.it-IT.resx">
+      <DependentUpon>ConfigAccelerometerCalibration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Calibration\ConfigAccelerometerCalibration.ko-KR.resx">
+      <DependentUpon>ConfigAccelerometerCalibration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Calibration\ConfigAccelerometerCalibration.pl.resx">
+      <DependentUpon>ConfigAccelerometerCalibration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Calibration\ConfigAccelerometerCalibration.pt.resx">
+      <DependentUpon>ConfigAccelerometerCalibration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Calibration\ConfigAccelerometerCalibration.resx">
+      <DependentUpon>ConfigAccelerometerCalibration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Calibration\ConfigAccelerometerCalibration.ru-KZ.resx">
+      <DependentUpon>ConfigAccelerometerCalibration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Calibration\ConfigAccelerometerCalibration.tr.resx">
+      <DependentUpon>ConfigAccelerometerCalibration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Calibration\ConfigAccelerometerCalibration.zh-Hans.resx">
+      <DependentUpon>ConfigAccelerometerCalibration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Calibration\ConfigAccelerometerCalibration.zh-Hant.resx">
+      <DependentUpon>ConfigAccelerometerCalibration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Calibration\ConfigAccelerometerCalibration.zh-TW.resx">
+      <DependentUpon>ConfigAccelerometerCalibration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Calibration\ConfigHWCompass.ar.resx">
+      <DependentUpon>ConfigHWCompass.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Calibration\ConfigHWCompass.az-Latn-AZ.resx">
+      <DependentUpon>ConfigHWCompass.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Calibration\ConfigHWCompass.de-DE.resx">
+      <DependentUpon>ConfigHWCompass.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Calibration\ConfigHWCompass.es-ES.resx">
+      <DependentUpon>ConfigHWCompass.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Calibration\ConfigHWCompass.fr.resx">
+      <DependentUpon>ConfigHWCompass.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Calibration\ConfigHWCompass.id-ID.resx">
+      <DependentUpon>ConfigHWCompass.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Calibration\ConfigHWCompass.it-IT.resx">
+      <DependentUpon>ConfigHWCompass.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Calibration\ConfigHWCompass.ja-JP.resx">
+      <DependentUpon>ConfigHWCompass.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Calibration\ConfigHWCompass.ko-KR.resx">
+      <DependentUpon>ConfigHWCompass.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Calibration\ConfigHWCompass.pl.resx">
+      <DependentUpon>ConfigHWCompass.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Calibration\ConfigHWCompass.pt.resx">
+      <DependentUpon>ConfigHWCompass.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Calibration\ConfigHWCompass.resx">
+      <DependentUpon>ConfigHWCompass.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Calibration\ConfigHWCompass.ru-KZ.resx">
+      <DependentUpon>ConfigHWCompass.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Calibration\ConfigHWCompass.tr.resx">
+      <DependentUpon>ConfigHWCompass.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Calibration\ConfigHWCompass.zh-Hans.resx">
+      <DependentUpon>ConfigHWCompass.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Calibration\ConfigHWCompass.zh-Hant.resx">
+      <DependentUpon>ConfigHWCompass.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Calibration\ConfigHWCompass.zh-TW.resx">
+      <DependentUpon>ConfigHWCompass.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Calibration\ConfigMotorTest.ar.resx">
+      <DependentUpon>ConfigMotorTest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Calibration\ConfigMotorTest.az-Latn-AZ.resx">
+      <DependentUpon>ConfigMotorTest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Calibration\ConfigMotorTest.de-DE.resx">
+      <DependentUpon>ConfigMotorTest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Calibration\ConfigMotorTest.id-ID.resx">
+      <DependentUpon>ConfigMotorTest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Calibration\ConfigMotorTest.ja-JP.resx">
+      <DependentUpon>ConfigMotorTest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Calibration\ConfigMotorTest.ko-KR.resx">
+      <DependentUpon>ConfigMotorTest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Calibration\ConfigMotorTest.pt.resx">
+      <DependentUpon>ConfigMotorTest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Calibration\ConfigMotorTest.resx">
+      <DependentUpon>ConfigMotorTest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Calibration\ConfigMotorTest.ru-KZ.resx">
+      <DependentUpon>ConfigMotorTest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Calibration\ConfigMotorTest.tr.resx">
+      <DependentUpon>ConfigMotorTest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Calibration\ConfigMotorTest.zh-Hans.resx">
+      <DependentUpon>ConfigMotorTest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Calibration\ConfigRadioInput.ar.resx">
+      <DependentUpon>ConfigRadioInput.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Calibration\ConfigRadioInput.az-Latn-AZ.resx">
+      <DependentUpon>ConfigRadioInput.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Calibration\ConfigRadioInput.de-DE.resx">
+      <DependentUpon>ConfigRadioInput.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Calibration\ConfigRadioInput.es-ES.resx">
+      <DependentUpon>ConfigRadioInput.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Calibration\ConfigRadioInput.fr.resx">
+      <DependentUpon>ConfigRadioInput.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Calibration\ConfigRadioInput.id-ID.resx">
+      <DependentUpon>ConfigRadioInput.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Calibration\ConfigRadioInput.it-IT.resx">
+      <DependentUpon>ConfigRadioInput.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Calibration\ConfigRadioInput.ja-JP.resx">
+      <DependentUpon>ConfigRadioInput.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Calibration\ConfigRadioInput.ko-KR.resx">
+      <DependentUpon>ConfigRadioInput.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Calibration\ConfigRadioInput.pl.resx">
+      <DependentUpon>ConfigRadioInput.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Calibration\ConfigRadioInput.pt.resx">
+      <DependentUpon>ConfigRadioInput.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Calibration\ConfigRadioInput.resx">
+      <DependentUpon>ConfigRadioInput.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Calibration\ConfigRadioInput.ru-KZ.resx">
+      <DependentUpon>ConfigRadioInput.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Calibration\ConfigRadioInput.tr.resx">
+      <DependentUpon>ConfigRadioInput.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Calibration\ConfigRadioInput.zh-Hans.resx">
+      <DependentUpon>ConfigRadioInput.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Calibration\ConfigRadioInput.zh-Hant.resx">
+      <DependentUpon>ConfigRadioInput.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Calibration\ConfigRadioInput.zh-TW.resx">
+      <DependentUpon>ConfigRadioInput.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConfigurationView\ConfigArduplane.ar.resx">
+      <DependentUpon>ConfigArduplane.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConfigurationView\ConfigArduplane.az-Latn-AZ.resx">
+      <DependentUpon>ConfigArduplane.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConfigurationView\ConfigArduplane.de-DE.resx">
+      <DependentUpon>ConfigArduplane.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConfigurationView\ConfigArduplane.fr.resx">
+      <DependentUpon>ConfigArduplane.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConfigurationView\ConfigArduplane.id-ID.resx">
+      <DependentUpon>ConfigArduplane.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConfigurationView\ConfigArduplane.it-IT.resx">
+      <DependentUpon>ConfigArduplane.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConfigurationView\ConfigArduplane.ja-JP.resx">
+      <DependentUpon>ConfigArduplane.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConfigurationView\ConfigArduplane.ko-KR.resx">
+      <DependentUpon>ConfigArduplane.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConfigurationView\ConfigArduplane.pt.resx">
+      <DependentUpon>ConfigArduplane.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConfigurationView\ConfigArduplane.resx">
+      <DependentUpon>ConfigArduplane.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConfigurationView\ConfigArduplane.ru-KZ.resx">
+      <DependentUpon>ConfigArduplane.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConfigurationView\ConfigArduplane.tr.resx">
+      <DependentUpon>ConfigArduplane.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConfigurationView\ConfigArduplane.zh-Hans.resx">
+      <DependentUpon>ConfigArduplane.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConfigurationView\ConfigArduplane.zh-Hant.resx">
+      <DependentUpon>ConfigArduplane.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConfigurationView\ConfigArduplane.zh-TW.resx">
+      <DependentUpon>ConfigArduplane.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\BtnCommand.resx">
+      <DependentUpon>BtnCommand.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\ConnectionControl.resx">
+      <DependentUpon>ConnectionControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\ConnectionStats.resx">
+      <DependentUpon>ConnectionStats.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\CtlDoSetServoMAV.resx">
+      <DependentUpon>CtlDoSetServoMAV.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\CtlDigitalCamMAV.resx">
+      <DependentUpon>CtlDigitalCamMAV.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\CtlHoverMAV.resx">
+      <DependentUpon>CtlHoverMAV.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\MapTools.resx">
+      <DependentUpon>MapTools.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\MavlinkCheckBoxBitMask.resx">
+      <DependentUpon>MavlinkCheckBoxBitMask.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\OpenGLtest.resx">
+      <DependentUpon>OpenGLtest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\OpenGLtest2.resx">
+      <DependentUpon>OpenGLtest2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\SITL.resx">
+      <DependentUpon>SITL.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Joystick\JoystickSetup.ar.resx">
+      <DependentUpon>JoystickSetup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Joystick\JoystickSetup.az-Latn-AZ.resx">
+      <DependentUpon>JoystickSetup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Joystick\JoystickSetup.de-DE.resx">
+      <DependentUpon>JoystickSetup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Joystick\JoystickSetup.es-ES.resx">
+      <DependentUpon>JoystickSetup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Joystick\JoystickSetup.fr.resx">
+      <DependentUpon>JoystickSetup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Joystick\JoystickSetup.id-ID.resx">
+      <DependentUpon>JoystickSetup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Joystick\JoystickSetup.it-IT.resx">
+      <DependentUpon>JoystickSetup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Joystick\JoystickSetup.ko-KR.resx">
+      <DependentUpon>JoystickSetup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Joystick\JoystickSetup.pl.resx">
+      <DependentUpon>JoystickSetup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Joystick\JoystickSetup.pt.resx">
+      <DependentUpon>JoystickSetup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Joystick\JoystickSetup.resx">
+      <DependentUpon>JoystickSetup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Joystick\JoystickSetup.ru-KZ.resx">
+      <DependentUpon>JoystickSetup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Joystick\JoystickSetup.ru-RU.resx">
+      <DependentUpon>JoystickSetup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Joystick\JoystickSetup.tr.resx">
+      <DependentUpon>JoystickSetup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Joystick\JoystickSetup.zh-Hans.resx">
+      <DependentUpon>JoystickSetup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Joystick\JoystickSetup.zh-Hant.resx">
+      <DependentUpon>JoystickSetup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Joystick\JoystickSetup.zh-TW.resx">
+      <DependentUpon>JoystickSetup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Joystick\Joy_Button_axis.resx">
+      <DependentUpon>Joy_Button_axis.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Joystick\Joy_ChangeMode.resx">
+      <DependentUpon>Joy_ChangeMode.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Joystick\Joy_Do_Repeat_Relay.resx">
+      <DependentUpon>Joy_Do_Repeat_Relay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Joystick\Joy_Do_Repeat_Servo.resx">
+      <DependentUpon>Joy_Do_Repeat_Servo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Joystick\Joy_Do_Set_Relay.resx">
+      <DependentUpon>Joy_Do_Set_Relay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Joystick\Joy_Do_Set_Servo.resx">
+      <DependentUpon>Joy_Do_Set_Servo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Joystick\Joy_Mount_Mode.ar.resx">
+      <DependentUpon>Joy_Mount_Mode.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Joystick\Joy_Mount_Mode.az-Latn-AZ.resx">
+      <DependentUpon>Joy_Mount_Mode.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Joystick\Joy_Mount_Mode.id-ID.resx">
+      <DependentUpon>Joy_Mount_Mode.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Joystick\Joy_Mount_Mode.ko-KR.resx">
+      <DependentUpon>Joy_Mount_Mode.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Joystick\Joy_Mount_Mode.pt.resx">
+      <DependentUpon>Joy_Mount_Mode.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Joystick\Joy_Mount_Mode.resx">
+      <DependentUpon>Joy_Mount_Mode.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Joystick\Joy_Mount_Mode.ru-KZ.resx">
+      <DependentUpon>Joy_Mount_Mode.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Joystick\Joy_Mount_Mode.tr.resx">
+      <DependentUpon>Joy_Mount_Mode.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainUI.resx">
+      <DependentUpon>MainUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MapTools\CommandsControl.resx">
+      <DependentUpon>CommandsControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuItems\FrmLineWayPoints.resx">
+      <DependentUpon>FrmLineWayPoints.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuItems\frmSetting.resx">
+      <DependentUpon>frmSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuItems\frmWayPointCommands.resx">
+      <DependentUpon>frmWayPointCommands.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuItems\GroundControlStation\OfflineMap.resx">
+      <DependentUpon>OfflineMap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuItems\SurveyGrid.resx">
+      <DependentUpon>SurveyGrid.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MessagePanel\BaseForm.resx">
+      <DependentUpon>BaseForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MessagePanel\ConfigParameters.resx">
+      <DependentUpon>ConfigParameters.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MessagePanel\ImportantMessagePanel.resx">
+      <DependentUpon>ImportantMessagePanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MessagePanel\QuickInfoPanel.resx">
+      <DependentUpon>QuickInfoPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Payloads\frmVideo.resx">
+      <DependentUpon>frmVideo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Payloads\NacellControl.resx">
+      <DependentUpon>NacellControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Payloads\NacellePanel.en-US.resx">
+      <DependentUpon>NacellePanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Payloads\NacellePanel.resx">
+      <DependentUpon>NacellePanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Payloads\NacellePanel.zh-CN.resx">
+      <DependentUpon>NacellePanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Strings.az-Latn-AZ.resx">
+      <DependentUpon>Strings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Strings.de-DE.resx">
+      <DependentUpon>Strings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Strings.id-ID.resx">
+      <DependentUpon>Strings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Strings.ja-JP.resx">
+      <DependentUpon>Strings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Strings.ko-KR.resx">
+      <DependentUpon>Strings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Strings.pt.resx">
+      <DependentUpon>Strings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Strings.resx">
+      <DependentUpon>Strings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Strings.ru-KZ.resx">
+      <DependentUpon>Strings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Strings.tr.resx">
+      <DependentUpon>Strings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Strings.zh-Hans.resx">
+      <DependentUpon>Strings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Warnings\WarningControl.resx">
+      <DependentUpon>WarningControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Warnings\WarningsManager.resx">
+      <DependentUpon>WarningsManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\DataSources\MissionPlanner.CurrentState.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SKYROVER.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\CellconCore\SKYROVER.CellconCore.csproj">
+      <Project>{1403232a-6374-46fa-80b2-a8cb2894054e}</Project>
+      <Name>SKYROVER.CellconCore</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\ExtLibs\Arduino\Arduino.csproj">
+      <Project>{dfa3c3b7-f098-4567-a780-a37dc52ca577}</Project>
+      <Name>Arduino</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\ExtLibs\ArduPilot\MissionPlanner.ArduPilot.csproj">
+      <Project>{ca6345d3-7a6d-478b-a0ed-a58e50dcaa83}</Project>
+      <Name>MissionPlanner.ArduPilot</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\ExtLibs\BSE.Windows.Forms\BSE.Windows.Forms.csproj">
+      <Project>{9ca367b8-0b98-49d1-84fb-735e612e3ba9}</Project>
+      <Name>BSE.Windows.Forms</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\ExtLibs\Comms\MissionPlanner.Comms.csproj">
+      <Project>{825e7a10-390c-4a2b-b3a8-491d14966912}</Project>
+      <Name>MissionPlanner.Comms</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\ExtLibs\Controls\MissionPlanner.Controls.csproj">
+      <Project>{c8b88795-6d01-494d-83ad-6944bd4c5023}</Project>
+      <Name>MissionPlanner.Controls</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\ExtLibs\GeoUtility\GeoUtility.csproj">
+      <Project>{7f7994ce-823f-4a04-bbea-d0a3808ff56d}</Project>
+      <Name>GeoUtility</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\ExtLibs\GMap.NET.Core\GMap.NET.Core.csproj">
+      <Project>{d0c39d9d-bed0-418b-9a5e-713176caf40c}</Project>
+      <Name>GMap.NET.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\ExtLibs\GMap.NET.WindowsForms\GMap.NET.WindowsForms.csproj">
+      <Project>{e06def77-f933-42fb-afd7-db2d0d8d6a98}</Project>
+      <Name>GMap.NET.WindowsForms</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\ExtLibs\ManagedNativeWifi.Simple\ManagedNativeWifi.Simple.csproj">
+      <Project>{cce510f7-1da6-40f2-8921-b86ed41bb85e}</Project>
+      <Name>ManagedNativeWifi.Simple</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\ExtLibs\Maps\MissionPlanner.Maps.csproj">
+      <Project>{6c4ff9c3-7aff-4274-b8fc-4a93a1faadea}</Project>
+      <Name>MissionPlanner.Maps</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\ExtLibs\Mavlink\MAVLink.csproj">
+      <Project>{13d2ec90-c41f-48a1-aada-859b6dc24edc}</Project>
+      <Name>MAVLink</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\ExtLibs\px4uploader\px4uploader.csproj">
+      <Project>{664fc484-2a94-4b0d-808f-a71f88e06b11}</Project>
+      <Name>px4uploader</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\ExtLibs\SharpAdbClient\SharpAdbClient.csproj">
+      <Project>{65473257-e70f-410b-9269-d0c0f771ea87}</Project>
+      <Name>SharpAdbClient</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\ExtLibs\SharpKml\SharpKml.csproj">
+      <Project>{53f12a60-e9cc-44bc-8366-1ae3ab2b547d}</Project>
+      <Name>SharpKml</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\ExtLibs\solo\solo.csproj">
+      <Project>{cf402948-a3f4-4962-8a57-e40b46759d25}</Project>
+      <Name>solo</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\ExtLibs\tlogThumbnailHandler\tlogThumbnailHandler.csproj">
+      <Project>{aba78b2e-77c3-4377-8568-9542ac227971}</Project>
+      <Name>tlogThumbnailHandler</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\ExtLibs\Utilities\MissionPlanner.Utilities.csproj">
+      <Project>{1378a66c-38e4-46f5-a05f-dc04ef7d4d16}</Project>
+      <Name>MissionPlanner.Utilities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\MetroUI\MetroSet UI\MetroSetUI.csproj">
+      <Project>{246951dc-5e33-4a86-9498-a03f9d784efa}</Project>
+      <Name>MetroSetUI</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\VLCLib\Vlc.DotNet.Core.Interops\Vlc.DotNet.Core.Interops.csproj">
+      <Project>{9abd70c6-4072-49a0-bfd3-abb281b7177c}</Project>
+      <Name>Vlc.DotNet.Core.Interops</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\VLCLib\Vlc.DotNet.Core\Vlc.DotNet.Core.csproj">
+      <Project>{4e32bda5-b0ba-413a-b3d6-531f23e0aec1}</Project>
+      <Name>Vlc.DotNet.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\VLCLib\Vlc.DotNet.Forms\Vlc.DotNet.Forms.csproj">
+      <Project>{d9ddf356-1e1f-4915-8fed-eed7c306bb10}</Project>
+      <Name>Vlc.DotNet.Forms</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MAVParam.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\01_05.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\quad2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\light_connect_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\light_disconnect_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bgdark.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\light_06.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\01_06.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\01_051.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\light_05.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\light_03.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\01_03.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\01_01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\light_01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="Controls\QuickView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MessagePanel\ImportantInfos.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.6.1">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.6.1 %28x86 和 x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\767040400874624687.png" />
+    <None Include="Resources\btnAsc.png" />
+    <None Include="Resources\btnDelete.png" />
+    <None Include="Resources\btnDesc.png" />
+    <None Include="Resources\btnDetail.png" />
+    <Content Include="SkyRover_GCS.ico" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

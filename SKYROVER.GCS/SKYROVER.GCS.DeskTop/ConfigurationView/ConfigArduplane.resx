@@ -1,0 +1,4533 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="toolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="BUT_writePIDS.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="BUT_writePIDS.Location" type="System.Drawing.Point, System.Drawing">
+    <value>80, 21</value>
+  </data>
+  <data name="BUT_writePIDS.Size" type="System.Drawing.Size, System.Drawing">
+    <value>148, 44</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="BUT_writePIDS.TabIndex" type="System.Int32, mscorlib">
+    <value>70</value>
+  </data>
+  <data name="BUT_writePIDS.Text" xml:space="preserve">
+    <value>Write Params</value>
+  </data>
+  <data name="&gt;&gt;BUT_writePIDS.Name" xml:space="preserve">
+    <value>BUT_writePIDS</value>
+  </data>
+  <data name="&gt;&gt;BUT_writePIDS.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BUT_writePIDS.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;BUT_writePIDS.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="BUT_rerequestparams.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="BUT_rerequestparams.Location" type="System.Drawing.Point, System.Drawing">
+    <value>80, 71</value>
+  </data>
+  <data name="BUT_rerequestparams.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 15, 0, 0</value>
+  </data>
+  <data name="BUT_rerequestparams.Size" type="System.Drawing.Size, System.Drawing">
+    <value>148, 44</value>
+  </data>
+  <data name="BUT_rerequestparams.TabIndex" type="System.Int32, mscorlib">
+    <value>75</value>
+  </data>
+  <data name="BUT_rerequestparams.Text" xml:space="preserve">
+    <value>Refresh Params</value>
+  </data>
+  <data name="BUT_rerequestparams.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;BUT_rerequestparams.Name" xml:space="preserve">
+    <value>BUT_rerequestparams</value>
+  </data>
+  <data name="&gt;&gt;BUT_rerequestparams.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BUT_rerequestparams.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;BUT_rerequestparams.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="BUT_refreshpart.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="BUT_refreshpart.Location" type="System.Drawing.Point, System.Drawing">
+    <value>80, 121</value>
+  </data>
+  <data name="BUT_refreshpart.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 15, 0, 0</value>
+  </data>
+  <data name="BUT_refreshpart.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 44</value>
+  </data>
+  <data name="BUT_refreshpart.TabIndex" type="System.Int32, mscorlib">
+    <value>77</value>
+  </data>
+  <data name="BUT_refreshpart.Text" xml:space="preserve">
+    <value>Refresh Screen</value>
+  </data>
+  <data name="&gt;&gt;BUT_refreshpart.Name" xml:space="preserve">
+    <value>BUT_refreshpart</value>
+  </data>
+  <data name="&gt;&gt;BUT_refreshpart.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BUT_refreshpart.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;BUT_refreshpart.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;Q_FRAME_TYPE.Name" xml:space="preserve">
+    <value>Q_FRAME_TYPE</value>
+  </data>
+  <data name="&gt;&gt;Q_FRAME_TYPE.Type" xml:space="preserve">
+    <value>SKYROVER.GCS.DeskTop.Controls.MavlinkComboBox, SKYROVER.GCS.DeskTop, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Q_FRAME_TYPE.Parent" xml:space="preserve">
+    <value>groupBox6</value>
+  </data>
+  <data name="&gt;&gt;Q_FRAME_TYPE.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Q_FRAME_CLASS.Name" xml:space="preserve">
+    <value>Q_FRAME_CLASS</value>
+  </data>
+  <data name="&gt;&gt;Q_FRAME_CLASS.Type" xml:space="preserve">
+    <value>SKYROVER.GCS.DeskTop.Controls.MavlinkComboBox, SKYROVER.GCS.DeskTop, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Q_FRAME_CLASS.Parent" xml:space="preserve">
+    <value>groupBox6</value>
+  </data>
+  <data name="&gt;&gt;Q_FRAME_CLASS.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;Q_ENABLE.Name" xml:space="preserve">
+    <value>Q_ENABLE</value>
+  </data>
+  <data name="&gt;&gt;Q_ENABLE.Type" xml:space="preserve">
+    <value>SKYROVER.GCS.DeskTop.Controls.MavlinkCheckBox, SKYROVER.GCS.DeskTop, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Q_ENABLE.Parent" xml:space="preserve">
+    <value>groupBox6</value>
+  </data>
+  <data name="&gt;&gt;Q_ENABLE.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;label16.Name" xml:space="preserve">
+    <value>label16</value>
+  </data>
+  <data name="&gt;&gt;label16.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label16.Parent" xml:space="preserve">
+    <value>groupBox6</value>
+  </data>
+  <data name="&gt;&gt;label16.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;label17.Name" xml:space="preserve">
+    <value>label17</value>
+  </data>
+  <data name="&gt;&gt;label17.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label17.Parent" xml:space="preserve">
+    <value>groupBox6</value>
+  </data>
+  <data name="&gt;&gt;label17.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;label18.Name" xml:space="preserve">
+    <value>label18</value>
+  </data>
+  <data name="&gt;&gt;label18.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label18.Parent" xml:space="preserve">
+    <value>groupBox6</value>
+  </data>
+  <data name="&gt;&gt;label18.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="groupBox6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 257</value>
+  </data>
+  <data name="groupBox6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>229, 108</value>
+  </data>
+  <data name="groupBox6.TabIndex" type="System.Int32, mscorlib">
+    <value>78</value>
+  </data>
+  <data name="groupBox6.Text" xml:space="preserve">
+    <value>飞行器结构</value>
+  </data>
+  <data name="&gt;&gt;groupBox6.Name" xml:space="preserve">
+    <value>groupBox6</value>
+  </data>
+  <data name="&gt;&gt;groupBox6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox6.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;groupBox6.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="Q_FRAME_TYPE.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="Q_FRAME_TYPE.Items" xml:space="preserve">
+    <value>Plus</value>
+  </data>
+  <data name="Q_FRAME_TYPE.Items1" xml:space="preserve">
+    <value>X</value>
+  </data>
+  <data name="Q_FRAME_TYPE.Items2" xml:space="preserve">
+    <value>V</value>
+  </data>
+  <data name="Q_FRAME_TYPE.Items3" xml:space="preserve">
+    <value>H</value>
+  </data>
+  <data name="Q_FRAME_TYPE.Items4" xml:space="preserve">
+    <value>V-Tail</value>
+  </data>
+  <data name="Q_FRAME_TYPE.Items5" xml:space="preserve">
+    <value>A-Tail</value>
+  </data>
+  <data name="Q_FRAME_TYPE.Items6" xml:space="preserve">
+    <value>Y6B</value>
+  </data>
+  <data name="Q_FRAME_TYPE.Items7" xml:space="preserve">
+    <value>Y6F</value>
+  </data>
+  <data name="Q_FRAME_TYPE.Location" type="System.Drawing.Point, System.Drawing">
+    <value>105, 81</value>
+  </data>
+  <data name="Q_FRAME_TYPE.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 23</value>
+  </data>
+  <data name="Q_FRAME_TYPE.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;Q_FRAME_TYPE.Name" xml:space="preserve">
+    <value>Q_FRAME_TYPE</value>
+  </data>
+  <data name="&gt;&gt;Q_FRAME_TYPE.Type" xml:space="preserve">
+    <value>SKYROVER.GCS.DeskTop.Controls.MavlinkComboBox, SKYROVER.GCS.DeskTop, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Q_FRAME_TYPE.Parent" xml:space="preserve">
+    <value>groupBox6</value>
+  </data>
+  <data name="&gt;&gt;Q_FRAME_TYPE.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Q_FRAME_CLASS.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="Q_FRAME_CLASS.Items" xml:space="preserve">
+    <value>Undefined</value>
+  </data>
+  <data name="Q_FRAME_CLASS.Items1" xml:space="preserve">
+    <value>Quad</value>
+  </data>
+  <data name="Q_FRAME_CLASS.Items2" xml:space="preserve">
+    <value>Hexa</value>
+  </data>
+  <data name="Q_FRAME_CLASS.Items3" xml:space="preserve">
+    <value>Octa</value>
+  </data>
+  <data name="Q_FRAME_CLASS.Items4" xml:space="preserve">
+    <value>OctaQuad</value>
+  </data>
+  <data name="Q_FRAME_CLASS.Items5" xml:space="preserve">
+    <value>Y6</value>
+  </data>
+  <data name="Q_FRAME_CLASS.Items6" xml:space="preserve">
+    <value>Tril</value>
+  </data>
+  <data name="Q_FRAME_CLASS.Items7" xml:space="preserve">
+    <value>TailSitter</value>
+  </data>
+  <data name="Q_FRAME_CLASS.Location" type="System.Drawing.Point, System.Drawing">
+    <value>106, 49</value>
+  </data>
+  <data name="Q_FRAME_CLASS.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 23</value>
+  </data>
+  <data name="Q_FRAME_CLASS.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;Q_FRAME_CLASS.Name" xml:space="preserve">
+    <value>Q_FRAME_CLASS</value>
+  </data>
+  <data name="&gt;&gt;Q_FRAME_CLASS.Type" xml:space="preserve">
+    <value>SKYROVER.GCS.DeskTop.Controls.MavlinkComboBox, SKYROVER.GCS.DeskTop, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Q_FRAME_CLASS.Parent" xml:space="preserve">
+    <value>groupBox6</value>
+  </data>
+  <data name="&gt;&gt;Q_FRAME_CLASS.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Q_ENABLE.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Q_ENABLE.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="Q_ENABLE.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Q_ENABLE.Location" type="System.Drawing.Point, System.Drawing">
+    <value>108, 21</value>
+  </data>
+  <data name="Q_ENABLE.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 19</value>
+  </data>
+  <data name="Q_ENABLE.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="Q_ENABLE.Text" xml:space="preserve">
+    <value>Q_ENABLE</value>
+  </data>
+  <data name="&gt;&gt;Q_ENABLE.Name" xml:space="preserve">
+    <value>Q_ENABLE</value>
+  </data>
+  <data name="&gt;&gt;Q_ENABLE.Type" xml:space="preserve">
+    <value>SKYROVER.GCS.DeskTop.Controls.MavlinkCheckBox, SKYROVER.GCS.DeskTop, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Q_ENABLE.Parent" xml:space="preserve">
+    <value>groupBox6</value>
+  </data>
+  <data name="&gt;&gt;Q_ENABLE.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="label16.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label16.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 24</value>
+  </data>
+  <data name="label16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 16</value>
+  </data>
+  <data name="label16.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="label16.Text" xml:space="preserve">
+    <value>使能VTOL模式</value>
+  </data>
+  <data name="&gt;&gt;label16.Name" xml:space="preserve">
+    <value>label16</value>
+  </data>
+  <data name="&gt;&gt;label16.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label16.Parent" xml:space="preserve">
+    <value>groupBox6</value>
+  </data>
+  <data name="&gt;&gt;label16.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="label17.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label17.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 54</value>
+  </data>
+  <data name="label17.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 13</value>
+  </data>
+  <data name="label17.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="label17.Text" xml:space="preserve">
+    <value>机架类型</value>
+  </data>
+  <data name="&gt;&gt;label17.Name" xml:space="preserve">
+    <value>label17</value>
+  </data>
+  <data name="&gt;&gt;label17.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label17.Parent" xml:space="preserve">
+    <value>groupBox6</value>
+  </data>
+  <data name="&gt;&gt;label17.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="label18.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label18.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 81</value>
+  </data>
+  <data name="label18.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 13</value>
+  </data>
+  <data name="label18.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="label18.Text" xml:space="preserve">
+    <value>机架布局</value>
+  </data>
+  <data name="&gt;&gt;label18.Name" xml:space="preserve">
+    <value>label18</value>
+  </data>
+  <data name="&gt;&gt;label18.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label18.Parent" xml:space="preserve">
+    <value>groupBox6</value>
+  </data>
+  <data name="&gt;&gt;label18.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;Q_A_ANG_RLL_P.Name" xml:space="preserve">
+    <value>Q_A_ANG_RLL_P</value>
+  </data>
+  <data name="&gt;&gt;Q_A_ANG_RLL_P.Type" xml:space="preserve">
+    <value>SKYROVER.GCS.DeskTop.Controls.MavlinkNumericUpDown, SKYROVER.GCS.DeskTop, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Q_A_ANG_RLL_P.Parent" xml:space="preserve">
+    <value>groupBox7</value>
+  </data>
+  <data name="&gt;&gt;Q_A_ANG_RLL_P.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;label19.Name" xml:space="preserve">
+    <value>label19</value>
+  </data>
+  <data name="&gt;&gt;label19.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label19.Parent" xml:space="preserve">
+    <value>groupBox7</value>
+  </data>
+  <data name="&gt;&gt;label19.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="groupBox7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 13</value>
+  </data>
+  <data name="groupBox7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>229, 44</value>
+  </data>
+  <data name="groupBox7.TabIndex" type="System.Int32, mscorlib">
+    <value>79</value>
+  </data>
+  <data name="groupBox7.Text" xml:space="preserve">
+    <value>自稳Roll</value>
+  </data>
+  <data name="&gt;&gt;groupBox7.Name" xml:space="preserve">
+    <value>groupBox7</value>
+  </data>
+  <data name="&gt;&gt;groupBox7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox7.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;groupBox7.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="Q_A_ANG_RLL_P.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="Q_A_ANG_RLL_P.Location" type="System.Drawing.Point, System.Drawing">
+    <value>148, 13</value>
+  </data>
+  <data name="Q_A_ANG_RLL_P.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 25</value>
+  </data>
+  <data name="Q_A_ANG_RLL_P.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;Q_A_ANG_RLL_P.Name" xml:space="preserve">
+    <value>Q_A_ANG_RLL_P</value>
+  </data>
+  <data name="&gt;&gt;Q_A_ANG_RLL_P.Type" xml:space="preserve">
+    <value>SKYROVER.GCS.DeskTop.Controls.MavlinkNumericUpDown, SKYROVER.GCS.DeskTop, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Q_A_ANG_RLL_P.Parent" xml:space="preserve">
+    <value>groupBox7</value>
+  </data>
+  <data name="&gt;&gt;Q_A_ANG_RLL_P.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label19.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label19.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 23</value>
+  </data>
+  <data name="label19.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 19</value>
+  </data>
+  <data name="label19.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="label19.Text" xml:space="preserve">
+    <value>P</value>
+  </data>
+  <data name="&gt;&gt;label19.Name" xml:space="preserve">
+    <value>label19</value>
+  </data>
+  <data name="&gt;&gt;label19.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label19.Parent" xml:space="preserve">
+    <value>groupBox7</value>
+  </data>
+  <data name="&gt;&gt;label19.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;Q_A_ANG_PIT_P.Name" xml:space="preserve">
+    <value>Q_A_ANG_PIT_P</value>
+  </data>
+  <data name="&gt;&gt;Q_A_ANG_PIT_P.Type" xml:space="preserve">
+    <value>SKYROVER.GCS.DeskTop.Controls.MavlinkNumericUpDown, SKYROVER.GCS.DeskTop, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Q_A_ANG_PIT_P.Parent" xml:space="preserve">
+    <value>groupBox11</value>
+  </data>
+  <data name="&gt;&gt;Q_A_ANG_PIT_P.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;label20.Name" xml:space="preserve">
+    <value>label20</value>
+  </data>
+  <data name="&gt;&gt;label20.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label20.Parent" xml:space="preserve">
+    <value>groupBox11</value>
+  </data>
+  <data name="&gt;&gt;label20.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="groupBox11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>251, 13</value>
+  </data>
+  <data name="groupBox11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>225, 44</value>
+  </data>
+  <data name="groupBox11.TabIndex" type="System.Int32, mscorlib">
+    <value>79</value>
+  </data>
+  <data name="groupBox11.Text" xml:space="preserve">
+    <value>自稳Pitch</value>
+  </data>
+  <data name="&gt;&gt;groupBox11.Name" xml:space="preserve">
+    <value>groupBox11</value>
+  </data>
+  <data name="&gt;&gt;groupBox11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox11.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;groupBox11.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Q_A_ANG_PIT_P.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="Q_A_ANG_PIT_P.Location" type="System.Drawing.Point, System.Drawing">
+    <value>143, 13</value>
+  </data>
+  <data name="Q_A_ANG_PIT_P.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 25</value>
+  </data>
+  <data name="Q_A_ANG_PIT_P.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;Q_A_ANG_PIT_P.Name" xml:space="preserve">
+    <value>Q_A_ANG_PIT_P</value>
+  </data>
+  <data name="&gt;&gt;Q_A_ANG_PIT_P.Type" xml:space="preserve">
+    <value>SKYROVER.GCS.DeskTop.Controls.MavlinkNumericUpDown, SKYROVER.GCS.DeskTop, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Q_A_ANG_PIT_P.Parent" xml:space="preserve">
+    <value>groupBox11</value>
+  </data>
+  <data name="&gt;&gt;Q_A_ANG_PIT_P.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label20.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label20.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 23</value>
+  </data>
+  <data name="label20.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 19</value>
+  </data>
+  <data name="label20.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="label20.Text" xml:space="preserve">
+    <value>P</value>
+  </data>
+  <data name="&gt;&gt;label20.Name" xml:space="preserve">
+    <value>label20</value>
+  </data>
+  <data name="&gt;&gt;label20.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label20.Parent" xml:space="preserve">
+    <value>groupBox11</value>
+  </data>
+  <data name="&gt;&gt;label20.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;Q_A_ANG_YAW_P.Name" xml:space="preserve">
+    <value>Q_A_ANG_YAW_P</value>
+  </data>
+  <data name="&gt;&gt;Q_A_ANG_YAW_P.Type" xml:space="preserve">
+    <value>SKYROVER.GCS.DeskTop.Controls.MavlinkNumericUpDown, SKYROVER.GCS.DeskTop, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Q_A_ANG_YAW_P.Parent" xml:space="preserve">
+    <value>groupBox15</value>
+  </data>
+  <data name="&gt;&gt;Q_A_ANG_YAW_P.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;label21.Name" xml:space="preserve">
+    <value>label21</value>
+  </data>
+  <data name="&gt;&gt;label21.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label21.Parent" xml:space="preserve">
+    <value>groupBox15</value>
+  </data>
+  <data name="&gt;&gt;label21.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="groupBox15.Location" type="System.Drawing.Point, System.Drawing">
+    <value>498, 13</value>
+  </data>
+  <data name="groupBox15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>238, 44</value>
+  </data>
+  <data name="groupBox15.TabIndex" type="System.Int32, mscorlib">
+    <value>79</value>
+  </data>
+  <data name="groupBox15.Text" xml:space="preserve">
+    <value>自稳Yaw</value>
+  </data>
+  <data name="&gt;&gt;groupBox15.Name" xml:space="preserve">
+    <value>groupBox15</value>
+  </data>
+  <data name="&gt;&gt;groupBox15.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox15.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;groupBox15.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Q_A_ANG_YAW_P.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="Q_A_ANG_YAW_P.Location" type="System.Drawing.Point, System.Drawing">
+    <value>155, 14</value>
+  </data>
+  <data name="Q_A_ANG_YAW_P.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 25</value>
+  </data>
+  <data name="Q_A_ANG_YAW_P.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;Q_A_ANG_YAW_P.Name" xml:space="preserve">
+    <value>Q_A_ANG_YAW_P</value>
+  </data>
+  <data name="&gt;&gt;Q_A_ANG_YAW_P.Type" xml:space="preserve">
+    <value>SKYROVER.GCS.DeskTop.Controls.MavlinkNumericUpDown, SKYROVER.GCS.DeskTop, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Q_A_ANG_YAW_P.Parent" xml:space="preserve">
+    <value>groupBox15</value>
+  </data>
+  <data name="&gt;&gt;Q_A_ANG_YAW_P.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label21.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label21.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 23</value>
+  </data>
+  <data name="label21.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 19</value>
+  </data>
+  <data name="label21.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="label21.Text" xml:space="preserve">
+    <value>P</value>
+  </data>
+  <data name="&gt;&gt;label21.Name" xml:space="preserve">
+    <value>label21</value>
+  </data>
+  <data name="&gt;&gt;label21.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label21.Parent" xml:space="preserve">
+    <value>groupBox15</value>
+  </data>
+  <data name="&gt;&gt;label21.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;Q_A_RAT_RLL_D.Name" xml:space="preserve">
+    <value>Q_A_RAT_RLL_D</value>
+  </data>
+  <data name="&gt;&gt;Q_A_RAT_RLL_D.Type" xml:space="preserve">
+    <value>SKYROVER.GCS.DeskTop.Controls.MavlinkNumericUpDown, SKYROVER.GCS.DeskTop, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Q_A_RAT_RLL_D.Parent" xml:space="preserve">
+    <value>groupBox17</value>
+  </data>
+  <data name="&gt;&gt;Q_A_RAT_RLL_D.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;label22.Name" xml:space="preserve">
+    <value>label22</value>
+  </data>
+  <data name="&gt;&gt;label22.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label22.Parent" xml:space="preserve">
+    <value>groupBox17</value>
+  </data>
+  <data name="&gt;&gt;label22.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;Q_A_RAT_RLL_FILT.Name" xml:space="preserve">
+    <value>Q_A_RAT_RLL_FILT</value>
+  </data>
+  <data name="&gt;&gt;Q_A_RAT_RLL_FILT.Type" xml:space="preserve">
+    <value>SKYROVER.GCS.DeskTop.Controls.MavlinkNumericUpDown, SKYROVER.GCS.DeskTop, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Q_A_RAT_RLL_FILT.Parent" xml:space="preserve">
+    <value>groupBox17</value>
+  </data>
+  <data name="&gt;&gt;Q_A_RAT_RLL_FILT.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;label27.Name" xml:space="preserve">
+    <value>label27</value>
+  </data>
+  <data name="&gt;&gt;label27.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label27.Parent" xml:space="preserve">
+    <value>groupBox17</value>
+  </data>
+  <data name="&gt;&gt;label27.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;Q_A_RAT_RLL_FF.Name" xml:space="preserve">
+    <value>Q_A_RAT_RLL_FF</value>
+  </data>
+  <data name="&gt;&gt;Q_A_RAT_RLL_FF.Type" xml:space="preserve">
+    <value>SKYROVER.GCS.DeskTop.Controls.MavlinkNumericUpDown, SKYROVER.GCS.DeskTop, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Q_A_RAT_RLL_FF.Parent" xml:space="preserve">
+    <value>groupBox17</value>
+  </data>
+  <data name="&gt;&gt;Q_A_RAT_RLL_FF.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;label23.Name" xml:space="preserve">
+    <value>label23</value>
+  </data>
+  <data name="&gt;&gt;label23.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label23.Parent" xml:space="preserve">
+    <value>groupBox17</value>
+  </data>
+  <data name="&gt;&gt;label23.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;Q_A_RAT_RLL_IMAX.Name" xml:space="preserve">
+    <value>Q_A_RAT_RLL_IMAX</value>
+  </data>
+  <data name="&gt;&gt;Q_A_RAT_RLL_IMAX.Type" xml:space="preserve">
+    <value>SKYROVER.GCS.DeskTop.Controls.MavlinkNumericUpDown, SKYROVER.GCS.DeskTop, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Q_A_RAT_RLL_IMAX.Parent" xml:space="preserve">
+    <value>groupBox17</value>
+  </data>
+  <data name="&gt;&gt;Q_A_RAT_RLL_IMAX.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;label24.Name" xml:space="preserve">
+    <value>label24</value>
+  </data>
+  <data name="&gt;&gt;label24.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label24.Parent" xml:space="preserve">
+    <value>groupBox17</value>
+  </data>
+  <data name="&gt;&gt;label24.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;Q_A_RAT_RLL_I.Name" xml:space="preserve">
+    <value>Q_A_RAT_RLL_I</value>
+  </data>
+  <data name="&gt;&gt;Q_A_RAT_RLL_I.Type" xml:space="preserve">
+    <value>SKYROVER.GCS.DeskTop.Controls.MavlinkNumericUpDown, SKYROVER.GCS.DeskTop, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Q_A_RAT_RLL_I.Parent" xml:space="preserve">
+    <value>groupBox17</value>
+  </data>
+  <data name="&gt;&gt;Q_A_RAT_RLL_I.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;label25.Name" xml:space="preserve">
+    <value>label25</value>
+  </data>
+  <data name="&gt;&gt;label25.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label25.Parent" xml:space="preserve">
+    <value>groupBox17</value>
+  </data>
+  <data name="&gt;&gt;label25.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;Q_A_RAT_RLL_P.Name" xml:space="preserve">
+    <value>Q_A_RAT_RLL_P</value>
+  </data>
+  <data name="&gt;&gt;Q_A_RAT_RLL_P.Type" xml:space="preserve">
+    <value>SKYROVER.GCS.DeskTop.Controls.MavlinkNumericUpDown, SKYROVER.GCS.DeskTop, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Q_A_RAT_RLL_P.Parent" xml:space="preserve">
+    <value>groupBox17</value>
+  </data>
+  <data name="&gt;&gt;Q_A_RAT_RLL_P.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;label26.Name" xml:space="preserve">
+    <value>label26</value>
+  </data>
+  <data name="&gt;&gt;label26.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label26.Parent" xml:space="preserve">
+    <value>groupBox17</value>
+  </data>
+  <data name="&gt;&gt;label26.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="groupBox17.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 72</value>
+  </data>
+  <data name="groupBox17.Size" type="System.Drawing.Size, System.Drawing">
+    <value>229, 168</value>
+  </data>
+  <data name="groupBox17.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="groupBox17.Text" xml:space="preserve">
+    <value>Roll 速率</value>
+  </data>
+  <data name="&gt;&gt;groupBox17.Name" xml:space="preserve">
+    <value>groupBox17</value>
+  </data>
+  <data name="&gt;&gt;groupBox17.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox17.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;groupBox17.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="Q_A_RAT_RLL_D.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="Q_A_RAT_RLL_D.Location" type="System.Drawing.Point, System.Drawing">
+    <value>111, 59</value>
+  </data>
+  <data name="Q_A_RAT_RLL_D.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 25</value>
+  </data>
+  <data name="Q_A_RAT_RLL_D.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;Q_A_RAT_RLL_D.Name" xml:space="preserve">
+    <value>Q_A_RAT_RLL_D</value>
+  </data>
+  <data name="&gt;&gt;Q_A_RAT_RLL_D.Type" xml:space="preserve">
+    <value>SKYROVER.GCS.DeskTop.Controls.MavlinkNumericUpDown, SKYROVER.GCS.DeskTop, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Q_A_RAT_RLL_D.Parent" xml:space="preserve">
+    <value>groupBox17</value>
+  </data>
+  <data name="&gt;&gt;Q_A_RAT_RLL_D.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label22.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label22.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 63</value>
+  </data>
+  <data name="label22.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 13</value>
+  </data>
+  <data name="label22.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="label22.Text" xml:space="preserve">
+    <value>D</value>
+  </data>
+  <data name="&gt;&gt;label22.Name" xml:space="preserve">
+    <value>label22</value>
+  </data>
+  <data name="&gt;&gt;label22.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label22.Parent" xml:space="preserve">
+    <value>groupBox17</value>
+  </data>
+  <data name="&gt;&gt;label22.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Q_A_RAT_RLL_FILT.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="Q_A_RAT_RLL_FILT.Location" type="System.Drawing.Point, System.Drawing">
+    <value>111, 134</value>
+  </data>
+  <data name="Q_A_RAT_RLL_FILT.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 25</value>
+  </data>
+  <data name="Q_A_RAT_RLL_FILT.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;Q_A_RAT_RLL_FILT.Name" xml:space="preserve">
+    <value>Q_A_RAT_RLL_FILT</value>
+  </data>
+  <data name="&gt;&gt;Q_A_RAT_RLL_FILT.Type" xml:space="preserve">
+    <value>SKYROVER.GCS.DeskTop.Controls.MavlinkNumericUpDown, SKYROVER.GCS.DeskTop, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Q_A_RAT_RLL_FILT.Parent" xml:space="preserve">
+    <value>groupBox17</value>
+  </data>
+  <data name="&gt;&gt;Q_A_RAT_RLL_FILT.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="label27.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label27.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 138</value>
+  </data>
+  <data name="label27.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 13</value>
+  </data>
+  <data name="label27.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="label27.Text" xml:space="preserve">
+    <value>FILT</value>
+  </data>
+  <data name="&gt;&gt;label27.Name" xml:space="preserve">
+    <value>label27</value>
+  </data>
+  <data name="&gt;&gt;label27.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label27.Parent" xml:space="preserve">
+    <value>groupBox17</value>
+  </data>
+  <data name="&gt;&gt;label27.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="Q_A_RAT_RLL_FF.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="Q_A_RAT_RLL_FF.Location" type="System.Drawing.Point, System.Drawing">
+    <value>111, 108</value>
+  </data>
+  <data name="Q_A_RAT_RLL_FF.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 25</value>
+  </data>
+  <data name="Q_A_RAT_RLL_FF.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;Q_A_RAT_RLL_FF.Name" xml:space="preserve">
+    <value>Q_A_RAT_RLL_FF</value>
+  </data>
+  <data name="&gt;&gt;Q_A_RAT_RLL_FF.Type" xml:space="preserve">
+    <value>SKYROVER.GCS.DeskTop.Controls.MavlinkNumericUpDown, SKYROVER.GCS.DeskTop, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Q_A_RAT_RLL_FF.Parent" xml:space="preserve">
+    <value>groupBox17</value>
+  </data>
+  <data name="&gt;&gt;Q_A_RAT_RLL_FF.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="label23.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label23.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 112</value>
+  </data>
+  <data name="label23.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 13</value>
+  </data>
+  <data name="label23.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="label23.Text" xml:space="preserve">
+    <value>前馈</value>
+  </data>
+  <data name="&gt;&gt;label23.Name" xml:space="preserve">
+    <value>label23</value>
+  </data>
+  <data name="&gt;&gt;label23.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label23.Parent" xml:space="preserve">
+    <value>groupBox17</value>
+  </data>
+  <data name="&gt;&gt;label23.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="Q_A_RAT_RLL_IMAX.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="Q_A_RAT_RLL_IMAX.Location" type="System.Drawing.Point, System.Drawing">
+    <value>111, 82</value>
+  </data>
+  <data name="Q_A_RAT_RLL_IMAX.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 25</value>
+  </data>
+  <data name="Q_A_RAT_RLL_IMAX.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;Q_A_RAT_RLL_IMAX.Name" xml:space="preserve">
+    <value>Q_A_RAT_RLL_IMAX</value>
+  </data>
+  <data name="&gt;&gt;Q_A_RAT_RLL_IMAX.Type" xml:space="preserve">
+    <value>SKYROVER.GCS.DeskTop.Controls.MavlinkNumericUpDown, SKYROVER.GCS.DeskTop, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Q_A_RAT_RLL_IMAX.Parent" xml:space="preserve">
+    <value>groupBox17</value>
+  </data>
+  <data name="&gt;&gt;Q_A_RAT_RLL_IMAX.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="label24.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label24.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 86</value>
+  </data>
+  <data name="label24.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 13</value>
+  </data>
+  <data name="label24.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="label24.Text" xml:space="preserve">
+    <value>I最大</value>
+  </data>
+  <data name="&gt;&gt;label24.Name" xml:space="preserve">
+    <value>label24</value>
+  </data>
+  <data name="&gt;&gt;label24.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label24.Parent" xml:space="preserve">
+    <value>groupBox17</value>
+  </data>
+  <data name="&gt;&gt;label24.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Q_A_RAT_RLL_I.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="Q_A_RAT_RLL_I.Location" type="System.Drawing.Point, System.Drawing">
+    <value>111, 36</value>
+  </data>
+  <data name="Q_A_RAT_RLL_I.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 25</value>
+  </data>
+  <data name="Q_A_RAT_RLL_I.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;Q_A_RAT_RLL_I.Name" xml:space="preserve">
+    <value>Q_A_RAT_RLL_I</value>
+  </data>
+  <data name="&gt;&gt;Q_A_RAT_RLL_I.Type" xml:space="preserve">
+    <value>SKYROVER.GCS.DeskTop.Controls.MavlinkNumericUpDown, SKYROVER.GCS.DeskTop, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Q_A_RAT_RLL_I.Parent" xml:space="preserve">
+    <value>groupBox17</value>
+  </data>
+  <data name="&gt;&gt;Q_A_RAT_RLL_I.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="label25.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label25.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 40</value>
+  </data>
+  <data name="label25.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 13</value>
+  </data>
+  <data name="label25.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="label25.Text" xml:space="preserve">
+    <value>I</value>
+  </data>
+  <data name="&gt;&gt;label25.Name" xml:space="preserve">
+    <value>label25</value>
+  </data>
+  <data name="&gt;&gt;label25.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label25.Parent" xml:space="preserve">
+    <value>groupBox17</value>
+  </data>
+  <data name="&gt;&gt;label25.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="Q_A_RAT_RLL_P.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="Q_A_RAT_RLL_P.Location" type="System.Drawing.Point, System.Drawing">
+    <value>111, 13</value>
+  </data>
+  <data name="Q_A_RAT_RLL_P.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 25</value>
+  </data>
+  <data name="Q_A_RAT_RLL_P.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;Q_A_RAT_RLL_P.Name" xml:space="preserve">
+    <value>Q_A_RAT_RLL_P</value>
+  </data>
+  <data name="&gt;&gt;Q_A_RAT_RLL_P.Type" xml:space="preserve">
+    <value>SKYROVER.GCS.DeskTop.Controls.MavlinkNumericUpDown, SKYROVER.GCS.DeskTop, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Q_A_RAT_RLL_P.Parent" xml:space="preserve">
+    <value>groupBox17</value>
+  </data>
+  <data name="&gt;&gt;Q_A_RAT_RLL_P.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="label26.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label26.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 17</value>
+  </data>
+  <data name="label26.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 13</value>
+  </data>
+  <data name="label26.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="label26.Text" xml:space="preserve">
+    <value>P</value>
+  </data>
+  <data name="&gt;&gt;label26.Name" xml:space="preserve">
+    <value>label26</value>
+  </data>
+  <data name="&gt;&gt;label26.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label26.Parent" xml:space="preserve">
+    <value>groupBox17</value>
+  </data>
+  <data name="&gt;&gt;label26.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;Q_A_RAT_YAW_D.Name" xml:space="preserve">
+    <value>Q_A_RAT_YAW_D</value>
+  </data>
+  <data name="&gt;&gt;Q_A_RAT_YAW_D.Type" xml:space="preserve">
+    <value>SKYROVER.GCS.DeskTop.Controls.MavlinkNumericUpDown, SKYROVER.GCS.DeskTop, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Q_A_RAT_YAW_D.Parent" xml:space="preserve">
+    <value>groupBox18</value>
+  </data>
+  <data name="&gt;&gt;Q_A_RAT_YAW_D.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;label28.Name" xml:space="preserve">
+    <value>label28</value>
+  </data>
+  <data name="&gt;&gt;label28.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label28.Parent" xml:space="preserve">
+    <value>groupBox18</value>
+  </data>
+  <data name="&gt;&gt;label28.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;Q_A_RAT_YAW_FILT.Name" xml:space="preserve">
+    <value>Q_A_RAT_YAW_FILT</value>
+  </data>
+  <data name="&gt;&gt;Q_A_RAT_YAW_FILT.Type" xml:space="preserve">
+    <value>SKYROVER.GCS.DeskTop.Controls.MavlinkNumericUpDown, SKYROVER.GCS.DeskTop, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Q_A_RAT_YAW_FILT.Parent" xml:space="preserve">
+    <value>groupBox18</value>
+  </data>
+  <data name="&gt;&gt;Q_A_RAT_YAW_FILT.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;label29.Name" xml:space="preserve">
+    <value>label29</value>
+  </data>
+  <data name="&gt;&gt;label29.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label29.Parent" xml:space="preserve">
+    <value>groupBox18</value>
+  </data>
+  <data name="&gt;&gt;label29.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;Q_A_RAT_YAW_FF.Name" xml:space="preserve">
+    <value>Q_A_RAT_YAW_FF</value>
+  </data>
+  <data name="&gt;&gt;Q_A_RAT_YAW_FF.Type" xml:space="preserve">
+    <value>SKYROVER.GCS.DeskTop.Controls.MavlinkNumericUpDown, SKYROVER.GCS.DeskTop, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Q_A_RAT_YAW_FF.Parent" xml:space="preserve">
+    <value>groupBox18</value>
+  </data>
+  <data name="&gt;&gt;Q_A_RAT_YAW_FF.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;label30.Name" xml:space="preserve">
+    <value>label30</value>
+  </data>
+  <data name="&gt;&gt;label30.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label30.Parent" xml:space="preserve">
+    <value>groupBox18</value>
+  </data>
+  <data name="&gt;&gt;label30.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;Q_A_RAT_YAW_IMAX.Name" xml:space="preserve">
+    <value>Q_A_RAT_YAW_IMAX</value>
+  </data>
+  <data name="&gt;&gt;Q_A_RAT_YAW_IMAX.Type" xml:space="preserve">
+    <value>SKYROVER.GCS.DeskTop.Controls.MavlinkNumericUpDown, SKYROVER.GCS.DeskTop, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Q_A_RAT_YAW_IMAX.Parent" xml:space="preserve">
+    <value>groupBox18</value>
+  </data>
+  <data name="&gt;&gt;Q_A_RAT_YAW_IMAX.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;label31.Name" xml:space="preserve">
+    <value>label31</value>
+  </data>
+  <data name="&gt;&gt;label31.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label31.Parent" xml:space="preserve">
+    <value>groupBox18</value>
+  </data>
+  <data name="&gt;&gt;label31.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;Q_A_RAT_YAW_I.Name" xml:space="preserve">
+    <value>Q_A_RAT_YAW_I</value>
+  </data>
+  <data name="&gt;&gt;Q_A_RAT_YAW_I.Type" xml:space="preserve">
+    <value>SKYROVER.GCS.DeskTop.Controls.MavlinkNumericUpDown, SKYROVER.GCS.DeskTop, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Q_A_RAT_YAW_I.Parent" xml:space="preserve">
+    <value>groupBox18</value>
+  </data>
+  <data name="&gt;&gt;Q_A_RAT_YAW_I.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;label32.Name" xml:space="preserve">
+    <value>label32</value>
+  </data>
+  <data name="&gt;&gt;label32.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label32.Parent" xml:space="preserve">
+    <value>groupBox18</value>
+  </data>
+  <data name="&gt;&gt;label32.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;Q_A_RAT_YAW_P.Name" xml:space="preserve">
+    <value>Q_A_RAT_YAW_P</value>
+  </data>
+  <data name="&gt;&gt;Q_A_RAT_YAW_P.Type" xml:space="preserve">
+    <value>SKYROVER.GCS.DeskTop.Controls.MavlinkNumericUpDown, SKYROVER.GCS.DeskTop, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Q_A_RAT_YAW_P.Parent" xml:space="preserve">
+    <value>groupBox18</value>
+  </data>
+  <data name="&gt;&gt;Q_A_RAT_YAW_P.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;label33.Name" xml:space="preserve">
+    <value>label33</value>
+  </data>
+  <data name="&gt;&gt;label33.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label33.Parent" xml:space="preserve">
+    <value>groupBox18</value>
+  </data>
+  <data name="&gt;&gt;label33.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="groupBox18.Location" type="System.Drawing.Point, System.Drawing">
+    <value>498, 70</value>
+  </data>
+  <data name="groupBox18.Size" type="System.Drawing.Size, System.Drawing">
+    <value>238, 168</value>
+  </data>
+  <data name="groupBox18.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="groupBox18.Text" xml:space="preserve">
+    <value>Yaw 速率</value>
+  </data>
+  <data name="&gt;&gt;groupBox18.Name" xml:space="preserve">
+    <value>groupBox18</value>
+  </data>
+  <data name="&gt;&gt;groupBox18.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox18.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;groupBox18.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="Q_A_RAT_YAW_D.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="Q_A_RAT_YAW_D.Location" type="System.Drawing.Point, System.Drawing">
+    <value>111, 59</value>
+  </data>
+  <data name="Q_A_RAT_YAW_D.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 25</value>
+  </data>
+  <data name="Q_A_RAT_YAW_D.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;Q_A_RAT_YAW_D.Name" xml:space="preserve">
+    <value>Q_A_RAT_YAW_D</value>
+  </data>
+  <data name="&gt;&gt;Q_A_RAT_YAW_D.Type" xml:space="preserve">
+    <value>SKYROVER.GCS.DeskTop.Controls.MavlinkNumericUpDown, SKYROVER.GCS.DeskTop, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Q_A_RAT_YAW_D.Parent" xml:space="preserve">
+    <value>groupBox18</value>
+  </data>
+  <data name="&gt;&gt;Q_A_RAT_YAW_D.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label28.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label28.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 63</value>
+  </data>
+  <data name="label28.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 13</value>
+  </data>
+  <data name="label28.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="label28.Text" xml:space="preserve">
+    <value>D</value>
+  </data>
+  <data name="&gt;&gt;label28.Name" xml:space="preserve">
+    <value>label28</value>
+  </data>
+  <data name="&gt;&gt;label28.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label28.Parent" xml:space="preserve">
+    <value>groupBox18</value>
+  </data>
+  <data name="&gt;&gt;label28.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Q_A_RAT_YAW_FILT.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="Q_A_RAT_YAW_FILT.Location" type="System.Drawing.Point, System.Drawing">
+    <value>111, 134</value>
+  </data>
+  <data name="Q_A_RAT_YAW_FILT.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 25</value>
+  </data>
+  <data name="Q_A_RAT_YAW_FILT.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;Q_A_RAT_YAW_FILT.Name" xml:space="preserve">
+    <value>Q_A_RAT_YAW_FILT</value>
+  </data>
+  <data name="&gt;&gt;Q_A_RAT_YAW_FILT.Type" xml:space="preserve">
+    <value>SKYROVER.GCS.DeskTop.Controls.MavlinkNumericUpDown, SKYROVER.GCS.DeskTop, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Q_A_RAT_YAW_FILT.Parent" xml:space="preserve">
+    <value>groupBox18</value>
+  </data>
+  <data name="&gt;&gt;Q_A_RAT_YAW_FILT.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="label29.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label29.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 138</value>
+  </data>
+  <data name="label29.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 13</value>
+  </data>
+  <data name="label29.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="label29.Text" xml:space="preserve">
+    <value>FILT</value>
+  </data>
+  <data name="&gt;&gt;label29.Name" xml:space="preserve">
+    <value>label29</value>
+  </data>
+  <data name="&gt;&gt;label29.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label29.Parent" xml:space="preserve">
+    <value>groupBox18</value>
+  </data>
+  <data name="&gt;&gt;label29.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="Q_A_RAT_YAW_FF.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="Q_A_RAT_YAW_FF.Location" type="System.Drawing.Point, System.Drawing">
+    <value>111, 108</value>
+  </data>
+  <data name="Q_A_RAT_YAW_FF.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 25</value>
+  </data>
+  <data name="Q_A_RAT_YAW_FF.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;Q_A_RAT_YAW_FF.Name" xml:space="preserve">
+    <value>Q_A_RAT_YAW_FF</value>
+  </data>
+  <data name="&gt;&gt;Q_A_RAT_YAW_FF.Type" xml:space="preserve">
+    <value>SKYROVER.GCS.DeskTop.Controls.MavlinkNumericUpDown, SKYROVER.GCS.DeskTop, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Q_A_RAT_YAW_FF.Parent" xml:space="preserve">
+    <value>groupBox18</value>
+  </data>
+  <data name="&gt;&gt;Q_A_RAT_YAW_FF.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="label30.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label30.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 112</value>
+  </data>
+  <data name="label30.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 13</value>
+  </data>
+  <data name="label30.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="label30.Text" xml:space="preserve">
+    <value>前馈</value>
+  </data>
+  <data name="&gt;&gt;label30.Name" xml:space="preserve">
+    <value>label30</value>
+  </data>
+  <data name="&gt;&gt;label30.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label30.Parent" xml:space="preserve">
+    <value>groupBox18</value>
+  </data>
+  <data name="&gt;&gt;label30.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="Q_A_RAT_YAW_IMAX.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="Q_A_RAT_YAW_IMAX.Location" type="System.Drawing.Point, System.Drawing">
+    <value>111, 82</value>
+  </data>
+  <data name="Q_A_RAT_YAW_IMAX.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 25</value>
+  </data>
+  <data name="Q_A_RAT_YAW_IMAX.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;Q_A_RAT_YAW_IMAX.Name" xml:space="preserve">
+    <value>Q_A_RAT_YAW_IMAX</value>
+  </data>
+  <data name="&gt;&gt;Q_A_RAT_YAW_IMAX.Type" xml:space="preserve">
+    <value>SKYROVER.GCS.DeskTop.Controls.MavlinkNumericUpDown, SKYROVER.GCS.DeskTop, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Q_A_RAT_YAW_IMAX.Parent" xml:space="preserve">
+    <value>groupBox18</value>
+  </data>
+  <data name="&gt;&gt;Q_A_RAT_YAW_IMAX.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="label31.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label31.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 86</value>
+  </data>
+  <data name="label31.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 13</value>
+  </data>
+  <data name="label31.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="label31.Text" xml:space="preserve">
+    <value>I最大</value>
+  </data>
+  <data name="&gt;&gt;label31.Name" xml:space="preserve">
+    <value>label31</value>
+  </data>
+  <data name="&gt;&gt;label31.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label31.Parent" xml:space="preserve">
+    <value>groupBox18</value>
+  </data>
+  <data name="&gt;&gt;label31.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Q_A_RAT_YAW_I.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="Q_A_RAT_YAW_I.Location" type="System.Drawing.Point, System.Drawing">
+    <value>111, 36</value>
+  </data>
+  <data name="Q_A_RAT_YAW_I.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 25</value>
+  </data>
+  <data name="Q_A_RAT_YAW_I.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;Q_A_RAT_YAW_I.Name" xml:space="preserve">
+    <value>Q_A_RAT_YAW_I</value>
+  </data>
+  <data name="&gt;&gt;Q_A_RAT_YAW_I.Type" xml:space="preserve">
+    <value>SKYROVER.GCS.DeskTop.Controls.MavlinkNumericUpDown, SKYROVER.GCS.DeskTop, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Q_A_RAT_YAW_I.Parent" xml:space="preserve">
+    <value>groupBox18</value>
+  </data>
+  <data name="&gt;&gt;Q_A_RAT_YAW_I.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="label32.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label32.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 40</value>
+  </data>
+  <data name="label32.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 13</value>
+  </data>
+  <data name="label32.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="label32.Text" xml:space="preserve">
+    <value>I</value>
+  </data>
+  <data name="&gt;&gt;label32.Name" xml:space="preserve">
+    <value>label32</value>
+  </data>
+  <data name="&gt;&gt;label32.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label32.Parent" xml:space="preserve">
+    <value>groupBox18</value>
+  </data>
+  <data name="&gt;&gt;label32.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="Q_A_RAT_YAW_P.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="Q_A_RAT_YAW_P.Location" type="System.Drawing.Point, System.Drawing">
+    <value>111, 13</value>
+  </data>
+  <data name="Q_A_RAT_YAW_P.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 25</value>
+  </data>
+  <data name="Q_A_RAT_YAW_P.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;Q_A_RAT_YAW_P.Name" xml:space="preserve">
+    <value>Q_A_RAT_YAW_P</value>
+  </data>
+  <data name="&gt;&gt;Q_A_RAT_YAW_P.Type" xml:space="preserve">
+    <value>SKYROVER.GCS.DeskTop.Controls.MavlinkNumericUpDown, SKYROVER.GCS.DeskTop, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Q_A_RAT_YAW_P.Parent" xml:space="preserve">
+    <value>groupBox18</value>
+  </data>
+  <data name="&gt;&gt;Q_A_RAT_YAW_P.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="label33.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label33.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 17</value>
+  </data>
+  <data name="label33.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 13</value>
+  </data>
+  <data name="label33.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="label33.Text" xml:space="preserve">
+    <value>P</value>
+  </data>
+  <data name="&gt;&gt;label33.Name" xml:space="preserve">
+    <value>label33</value>
+  </data>
+  <data name="&gt;&gt;label33.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label33.Parent" xml:space="preserve">
+    <value>groupBox18</value>
+  </data>
+  <data name="&gt;&gt;label33.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;Q_A_RAT_PIT_D.Name" xml:space="preserve">
+    <value>Q_A_RAT_PIT_D</value>
+  </data>
+  <data name="&gt;&gt;Q_A_RAT_PIT_D.Type" xml:space="preserve">
+    <value>SKYROVER.GCS.DeskTop.Controls.MavlinkNumericUpDown, SKYROVER.GCS.DeskTop, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Q_A_RAT_PIT_D.Parent" xml:space="preserve">
+    <value>groupBox19</value>
+  </data>
+  <data name="&gt;&gt;Q_A_RAT_PIT_D.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;label34.Name" xml:space="preserve">
+    <value>label34</value>
+  </data>
+  <data name="&gt;&gt;label34.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label34.Parent" xml:space="preserve">
+    <value>groupBox19</value>
+  </data>
+  <data name="&gt;&gt;label34.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;Q_A_RAT_PIT_FILT.Name" xml:space="preserve">
+    <value>Q_A_RAT_PIT_FILT</value>
+  </data>
+  <data name="&gt;&gt;Q_A_RAT_PIT_FILT.Type" xml:space="preserve">
+    <value>SKYROVER.GCS.DeskTop.Controls.MavlinkNumericUpDown, SKYROVER.GCS.DeskTop, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Q_A_RAT_PIT_FILT.Parent" xml:space="preserve">
+    <value>groupBox19</value>
+  </data>
+  <data name="&gt;&gt;Q_A_RAT_PIT_FILT.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;label35.Name" xml:space="preserve">
+    <value>label35</value>
+  </data>
+  <data name="&gt;&gt;label35.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label35.Parent" xml:space="preserve">
+    <value>groupBox19</value>
+  </data>
+  <data name="&gt;&gt;label35.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;Q_A_RAT_PIT_FF.Name" xml:space="preserve">
+    <value>Q_A_RAT_PIT_FF</value>
+  </data>
+  <data name="&gt;&gt;Q_A_RAT_PIT_FF.Type" xml:space="preserve">
+    <value>SKYROVER.GCS.DeskTop.Controls.MavlinkNumericUpDown, SKYROVER.GCS.DeskTop, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Q_A_RAT_PIT_FF.Parent" xml:space="preserve">
+    <value>groupBox19</value>
+  </data>
+  <data name="&gt;&gt;Q_A_RAT_PIT_FF.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;label36.Name" xml:space="preserve">
+    <value>label36</value>
+  </data>
+  <data name="&gt;&gt;label36.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label36.Parent" xml:space="preserve">
+    <value>groupBox19</value>
+  </data>
+  <data name="&gt;&gt;label36.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;Q_A_RAT_PIT_IMAX.Name" xml:space="preserve">
+    <value>Q_A_RAT_PIT_IMAX</value>
+  </data>
+  <data name="&gt;&gt;Q_A_RAT_PIT_IMAX.Type" xml:space="preserve">
+    <value>SKYROVER.GCS.DeskTop.Controls.MavlinkNumericUpDown, SKYROVER.GCS.DeskTop, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Q_A_RAT_PIT_IMAX.Parent" xml:space="preserve">
+    <value>groupBox19</value>
+  </data>
+  <data name="&gt;&gt;Q_A_RAT_PIT_IMAX.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;label40.Name" xml:space="preserve">
+    <value>label40</value>
+  </data>
+  <data name="&gt;&gt;label40.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label40.Parent" xml:space="preserve">
+    <value>groupBox19</value>
+  </data>
+  <data name="&gt;&gt;label40.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;Q_A_RAT_PIT_I.Name" xml:space="preserve">
+    <value>Q_A_RAT_PIT_I</value>
+  </data>
+  <data name="&gt;&gt;Q_A_RAT_PIT_I.Type" xml:space="preserve">
+    <value>SKYROVER.GCS.DeskTop.Controls.MavlinkNumericUpDown, SKYROVER.GCS.DeskTop, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Q_A_RAT_PIT_I.Parent" xml:space="preserve">
+    <value>groupBox19</value>
+  </data>
+  <data name="&gt;&gt;Q_A_RAT_PIT_I.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;label41.Name" xml:space="preserve">
+    <value>label41</value>
+  </data>
+  <data name="&gt;&gt;label41.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label41.Parent" xml:space="preserve">
+    <value>groupBox19</value>
+  </data>
+  <data name="&gt;&gt;label41.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;Q_A_RAT_PIT_P.Name" xml:space="preserve">
+    <value>Q_A_RAT_PIT_P</value>
+  </data>
+  <data name="&gt;&gt;Q_A_RAT_PIT_P.Type" xml:space="preserve">
+    <value>SKYROVER.GCS.DeskTop.Controls.MavlinkNumericUpDown, SKYROVER.GCS.DeskTop, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Q_A_RAT_PIT_P.Parent" xml:space="preserve">
+    <value>groupBox19</value>
+  </data>
+  <data name="&gt;&gt;Q_A_RAT_PIT_P.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;label42.Name" xml:space="preserve">
+    <value>label42</value>
+  </data>
+  <data name="&gt;&gt;label42.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label42.Parent" xml:space="preserve">
+    <value>groupBox19</value>
+  </data>
+  <data name="&gt;&gt;label42.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="groupBox19.Location" type="System.Drawing.Point, System.Drawing">
+    <value>251, 70</value>
+  </data>
+  <data name="groupBox19.Size" type="System.Drawing.Size, System.Drawing">
+    <value>225, 168</value>
+  </data>
+  <data name="groupBox19.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="groupBox19.Text" xml:space="preserve">
+    <value>Pitch 速率</value>
+  </data>
+  <data name="&gt;&gt;groupBox19.Name" xml:space="preserve">
+    <value>groupBox19</value>
+  </data>
+  <data name="&gt;&gt;groupBox19.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox19.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;groupBox19.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="Q_A_RAT_PIT_D.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="Q_A_RAT_PIT_D.Location" type="System.Drawing.Point, System.Drawing">
+    <value>111, 59</value>
+  </data>
+  <data name="Q_A_RAT_PIT_D.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 25</value>
+  </data>
+  <data name="Q_A_RAT_PIT_D.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;Q_A_RAT_PIT_D.Name" xml:space="preserve">
+    <value>Q_A_RAT_PIT_D</value>
+  </data>
+  <data name="&gt;&gt;Q_A_RAT_PIT_D.Type" xml:space="preserve">
+    <value>SKYROVER.GCS.DeskTop.Controls.MavlinkNumericUpDown, SKYROVER.GCS.DeskTop, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Q_A_RAT_PIT_D.Parent" xml:space="preserve">
+    <value>groupBox19</value>
+  </data>
+  <data name="&gt;&gt;Q_A_RAT_PIT_D.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label34.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label34.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 63</value>
+  </data>
+  <data name="label34.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 13</value>
+  </data>
+  <data name="label34.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="label34.Text" xml:space="preserve">
+    <value>D</value>
+  </data>
+  <data name="&gt;&gt;label34.Name" xml:space="preserve">
+    <value>label34</value>
+  </data>
+  <data name="&gt;&gt;label34.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label34.Parent" xml:space="preserve">
+    <value>groupBox19</value>
+  </data>
+  <data name="&gt;&gt;label34.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Q_A_RAT_PIT_FILT.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="Q_A_RAT_PIT_FILT.Location" type="System.Drawing.Point, System.Drawing">
+    <value>111, 134</value>
+  </data>
+  <data name="Q_A_RAT_PIT_FILT.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 25</value>
+  </data>
+  <data name="Q_A_RAT_PIT_FILT.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;Q_A_RAT_PIT_FILT.Name" xml:space="preserve">
+    <value>Q_A_RAT_PIT_FILT</value>
+  </data>
+  <data name="&gt;&gt;Q_A_RAT_PIT_FILT.Type" xml:space="preserve">
+    <value>SKYROVER.GCS.DeskTop.Controls.MavlinkNumericUpDown, SKYROVER.GCS.DeskTop, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Q_A_RAT_PIT_FILT.Parent" xml:space="preserve">
+    <value>groupBox19</value>
+  </data>
+  <data name="&gt;&gt;Q_A_RAT_PIT_FILT.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="label35.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label35.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 138</value>
+  </data>
+  <data name="label35.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 13</value>
+  </data>
+  <data name="label35.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="label35.Text" xml:space="preserve">
+    <value>FILT</value>
+  </data>
+  <data name="&gt;&gt;label35.Name" xml:space="preserve">
+    <value>label35</value>
+  </data>
+  <data name="&gt;&gt;label35.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label35.Parent" xml:space="preserve">
+    <value>groupBox19</value>
+  </data>
+  <data name="&gt;&gt;label35.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="Q_A_RAT_PIT_FF.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="Q_A_RAT_PIT_FF.Location" type="System.Drawing.Point, System.Drawing">
+    <value>111, 108</value>
+  </data>
+  <data name="Q_A_RAT_PIT_FF.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 25</value>
+  </data>
+  <data name="Q_A_RAT_PIT_FF.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;Q_A_RAT_PIT_FF.Name" xml:space="preserve">
+    <value>Q_A_RAT_PIT_FF</value>
+  </data>
+  <data name="&gt;&gt;Q_A_RAT_PIT_FF.Type" xml:space="preserve">
+    <value>SKYROVER.GCS.DeskTop.Controls.MavlinkNumericUpDown, SKYROVER.GCS.DeskTop, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Q_A_RAT_PIT_FF.Parent" xml:space="preserve">
+    <value>groupBox19</value>
+  </data>
+  <data name="&gt;&gt;Q_A_RAT_PIT_FF.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="label36.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label36.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 112</value>
+  </data>
+  <data name="label36.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 13</value>
+  </data>
+  <data name="label36.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="label36.Text" xml:space="preserve">
+    <value>前馈</value>
+  </data>
+  <data name="&gt;&gt;label36.Name" xml:space="preserve">
+    <value>label36</value>
+  </data>
+  <data name="&gt;&gt;label36.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label36.Parent" xml:space="preserve">
+    <value>groupBox19</value>
+  </data>
+  <data name="&gt;&gt;label36.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="Q_A_RAT_PIT_IMAX.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="Q_A_RAT_PIT_IMAX.Location" type="System.Drawing.Point, System.Drawing">
+    <value>111, 82</value>
+  </data>
+  <data name="Q_A_RAT_PIT_IMAX.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 25</value>
+  </data>
+  <data name="Q_A_RAT_PIT_IMAX.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;Q_A_RAT_PIT_IMAX.Name" xml:space="preserve">
+    <value>Q_A_RAT_PIT_IMAX</value>
+  </data>
+  <data name="&gt;&gt;Q_A_RAT_PIT_IMAX.Type" xml:space="preserve">
+    <value>SKYROVER.GCS.DeskTop.Controls.MavlinkNumericUpDown, SKYROVER.GCS.DeskTop, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Q_A_RAT_PIT_IMAX.Parent" xml:space="preserve">
+    <value>groupBox19</value>
+  </data>
+  <data name="&gt;&gt;Q_A_RAT_PIT_IMAX.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="label40.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label40.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 86</value>
+  </data>
+  <data name="label40.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 13</value>
+  </data>
+  <data name="label40.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="label40.Text" xml:space="preserve">
+    <value>I最大</value>
+  </data>
+  <data name="&gt;&gt;label40.Name" xml:space="preserve">
+    <value>label40</value>
+  </data>
+  <data name="&gt;&gt;label40.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label40.Parent" xml:space="preserve">
+    <value>groupBox19</value>
+  </data>
+  <data name="&gt;&gt;label40.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Q_A_RAT_PIT_I.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="Q_A_RAT_PIT_I.Location" type="System.Drawing.Point, System.Drawing">
+    <value>111, 36</value>
+  </data>
+  <data name="Q_A_RAT_PIT_I.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 25</value>
+  </data>
+  <data name="Q_A_RAT_PIT_I.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;Q_A_RAT_PIT_I.Name" xml:space="preserve">
+    <value>Q_A_RAT_PIT_I</value>
+  </data>
+  <data name="&gt;&gt;Q_A_RAT_PIT_I.Type" xml:space="preserve">
+    <value>SKYROVER.GCS.DeskTop.Controls.MavlinkNumericUpDown, SKYROVER.GCS.DeskTop, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Q_A_RAT_PIT_I.Parent" xml:space="preserve">
+    <value>groupBox19</value>
+  </data>
+  <data name="&gt;&gt;Q_A_RAT_PIT_I.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="label41.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label41.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 40</value>
+  </data>
+  <data name="label41.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 13</value>
+  </data>
+  <data name="label41.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="label41.Text" xml:space="preserve">
+    <value>I</value>
+  </data>
+  <data name="&gt;&gt;label41.Name" xml:space="preserve">
+    <value>label41</value>
+  </data>
+  <data name="&gt;&gt;label41.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label41.Parent" xml:space="preserve">
+    <value>groupBox19</value>
+  </data>
+  <data name="&gt;&gt;label41.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="Q_A_RAT_PIT_P.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="Q_A_RAT_PIT_P.Location" type="System.Drawing.Point, System.Drawing">
+    <value>111, 13</value>
+  </data>
+  <data name="Q_A_RAT_PIT_P.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 25</value>
+  </data>
+  <data name="Q_A_RAT_PIT_P.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;Q_A_RAT_PIT_P.Name" xml:space="preserve">
+    <value>Q_A_RAT_PIT_P</value>
+  </data>
+  <data name="&gt;&gt;Q_A_RAT_PIT_P.Type" xml:space="preserve">
+    <value>SKYROVER.GCS.DeskTop.Controls.MavlinkNumericUpDown, SKYROVER.GCS.DeskTop, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Q_A_RAT_PIT_P.Parent" xml:space="preserve">
+    <value>groupBox19</value>
+  </data>
+  <data name="&gt;&gt;Q_A_RAT_PIT_P.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="label42.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label42.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 17</value>
+  </data>
+  <data name="label42.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 13</value>
+  </data>
+  <data name="label42.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="label42.Text" xml:space="preserve">
+    <value>P</value>
+  </data>
+  <data name="&gt;&gt;label42.Name" xml:space="preserve">
+    <value>label42</value>
+  </data>
+  <data name="&gt;&gt;label42.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label42.Parent" xml:space="preserve">
+    <value>groupBox19</value>
+  </data>
+  <data name="&gt;&gt;label42.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;Q_ASSIST_SPEED.Name" xml:space="preserve">
+    <value>Q_ASSIST_SPEED</value>
+  </data>
+  <data name="&gt;&gt;Q_ASSIST_SPEED.Type" xml:space="preserve">
+    <value>SKYROVER.GCS.DeskTop.Controls.MavlinkNumericUpDown, SKYROVER.GCS.DeskTop, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Q_ASSIST_SPEED.Parent" xml:space="preserve">
+    <value>groupBox20</value>
+  </data>
+  <data name="&gt;&gt;Q_ASSIST_SPEED.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;label43.Name" xml:space="preserve">
+    <value>label43</value>
+  </data>
+  <data name="&gt;&gt;label43.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label43.Parent" xml:space="preserve">
+    <value>groupBox20</value>
+  </data>
+  <data name="&gt;&gt;label43.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;label45.Name" xml:space="preserve">
+    <value>label45</value>
+  </data>
+  <data name="&gt;&gt;label45.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label45.Parent" xml:space="preserve">
+    <value>groupBox20</value>
+  </data>
+  <data name="&gt;&gt;label45.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;Q_M_HOVER_LEARN.Name" xml:space="preserve">
+    <value>Q_M_HOVER_LEARN</value>
+  </data>
+  <data name="&gt;&gt;Q_M_HOVER_LEARN.Type" xml:space="preserve">
+    <value>SKYROVER.GCS.DeskTop.Controls.MavlinkCheckBox, SKYROVER.GCS.DeskTop, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Q_M_HOVER_LEARN.Parent" xml:space="preserve">
+    <value>groupBox20</value>
+  </data>
+  <data name="&gt;&gt;Q_M_HOVER_LEARN.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;Q_ASSIST_ANGLE.Name" xml:space="preserve">
+    <value>Q_ASSIST_ANGLE</value>
+  </data>
+  <data name="&gt;&gt;Q_ASSIST_ANGLE.Type" xml:space="preserve">
+    <value>SKYROVER.GCS.DeskTop.Controls.MavlinkNumericUpDown, SKYROVER.GCS.DeskTop, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Q_ASSIST_ANGLE.Parent" xml:space="preserve">
+    <value>groupBox20</value>
+  </data>
+  <data name="&gt;&gt;Q_ASSIST_ANGLE.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;label46.Name" xml:space="preserve">
+    <value>label46</value>
+  </data>
+  <data name="&gt;&gt;label46.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label46.Parent" xml:space="preserve">
+    <value>groupBox20</value>
+  </data>
+  <data name="&gt;&gt;label46.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;Q_TRANSITION_MS.Name" xml:space="preserve">
+    <value>Q_TRANSITION_MS</value>
+  </data>
+  <data name="&gt;&gt;Q_TRANSITION_MS.Type" xml:space="preserve">
+    <value>SKYROVER.GCS.DeskTop.Controls.MavlinkNumericUpDown, SKYROVER.GCS.DeskTop, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Q_TRANSITION_MS.Parent" xml:space="preserve">
+    <value>groupBox20</value>
+  </data>
+  <data name="&gt;&gt;Q_TRANSITION_MS.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;label47.Name" xml:space="preserve">
+    <value>label47</value>
+  </data>
+  <data name="&gt;&gt;label47.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label47.Parent" xml:space="preserve">
+    <value>groupBox20</value>
+  </data>
+  <data name="&gt;&gt;label47.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;ARSPD_FBW_MIN_1.Name" xml:space="preserve">
+    <value>ARSPD_FBW_MIN_1</value>
+  </data>
+  <data name="&gt;&gt;ARSPD_FBW_MIN_1.Type" xml:space="preserve">
+    <value>SKYROVER.GCS.DeskTop.Controls.MavlinkNumericUpDown, SKYROVER.GCS.DeskTop, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ARSPD_FBW_MIN_1.Parent" xml:space="preserve">
+    <value>groupBox20</value>
+  </data>
+  <data name="&gt;&gt;ARSPD_FBW_MIN_1.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;label48.Name" xml:space="preserve">
+    <value>label48</value>
+  </data>
+  <data name="&gt;&gt;label48.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label48.Parent" xml:space="preserve">
+    <value>groupBox20</value>
+  </data>
+  <data name="&gt;&gt;label48.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="groupBox20.Location" type="System.Drawing.Point, System.Drawing">
+    <value>251, 257</value>
+  </data>
+  <data name="groupBox20.Size" type="System.Drawing.Size, System.Drawing">
+    <value>225, 142</value>
+  </data>
+  <data name="groupBox20.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="groupBox20.Text" xml:space="preserve">
+    <value>旋翼/固定翼模式转换</value>
+  </data>
+  <data name="&gt;&gt;groupBox20.Name" xml:space="preserve">
+    <value>groupBox20</value>
+  </data>
+  <data name="&gt;&gt;groupBox20.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox20.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;groupBox20.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="Q_ASSIST_SPEED.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="Q_ASSIST_SPEED.Location" type="System.Drawing.Point, System.Drawing">
+    <value>140, 59</value>
+  </data>
+  <data name="Q_ASSIST_SPEED.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 25</value>
+  </data>
+  <data name="Q_ASSIST_SPEED.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;Q_ASSIST_SPEED.Name" xml:space="preserve">
+    <value>Q_ASSIST_SPEED</value>
+  </data>
+  <data name="&gt;&gt;Q_ASSIST_SPEED.Type" xml:space="preserve">
+    <value>SKYROVER.GCS.DeskTop.Controls.MavlinkNumericUpDown, SKYROVER.GCS.DeskTop, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Q_ASSIST_SPEED.Parent" xml:space="preserve">
+    <value>groupBox20</value>
+  </data>
+  <data name="&gt;&gt;Q_ASSIST_SPEED.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label43.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label43.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 63</value>
+  </data>
+  <data name="label43.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 13</value>
+  </data>
+  <data name="label43.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="label43.Text" xml:space="preserve">
+    <value>辅助模式空速门限</value>
+  </data>
+  <data name="&gt;&gt;label43.Name" xml:space="preserve">
+    <value>label43</value>
+  </data>
+  <data name="&gt;&gt;label43.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label43.Parent" xml:space="preserve">
+    <value>groupBox20</value>
+  </data>
+  <data name="&gt;&gt;label43.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label45.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label45.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 112</value>
+  </data>
+  <data name="label45.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 13</value>
+  </data>
+  <data name="label45.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="label45.Text" xml:space="preserve">
+    <value>旋翼模式悬停油门自动记录</value>
+  </data>
+  <data name="&gt;&gt;label45.Name" xml:space="preserve">
+    <value>label45</value>
+  </data>
+  <data name="&gt;&gt;label45.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label45.Parent" xml:space="preserve">
+    <value>groupBox20</value>
+  </data>
+  <data name="&gt;&gt;label45.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Q_M_HOVER_LEARN.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Q_M_HOVER_LEARN.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="Q_M_HOVER_LEARN.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Q_M_HOVER_LEARN.Location" type="System.Drawing.Point, System.Drawing">
+    <value>140, 112</value>
+  </data>
+  <data name="Q_M_HOVER_LEARN.Size" type="System.Drawing.Size, System.Drawing">
+    <value>149, 19</value>
+  </data>
+  <data name="Q_M_HOVER_LEARN.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="Q_M_HOVER_LEARN.Text" xml:space="preserve">
+    <value>Q_M_HOVER_LEARN</value>
+  </data>
+  <data name="&gt;&gt;Q_M_HOVER_LEARN.Name" xml:space="preserve">
+    <value>Q_M_HOVER_LEARN</value>
+  </data>
+  <data name="&gt;&gt;Q_M_HOVER_LEARN.Type" xml:space="preserve">
+    <value>SKYROVER.GCS.DeskTop.Controls.MavlinkCheckBox, SKYROVER.GCS.DeskTop, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Q_M_HOVER_LEARN.Parent" xml:space="preserve">
+    <value>groupBox20</value>
+  </data>
+  <data name="&gt;&gt;Q_M_HOVER_LEARN.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="Q_ASSIST_ANGLE.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="Q_ASSIST_ANGLE.Location" type="System.Drawing.Point, System.Drawing">
+    <value>140, 82</value>
+  </data>
+  <data name="Q_ASSIST_ANGLE.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 25</value>
+  </data>
+  <data name="Q_ASSIST_ANGLE.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;Q_ASSIST_ANGLE.Name" xml:space="preserve">
+    <value>Q_ASSIST_ANGLE</value>
+  </data>
+  <data name="&gt;&gt;Q_ASSIST_ANGLE.Type" xml:space="preserve">
+    <value>SKYROVER.GCS.DeskTop.Controls.MavlinkNumericUpDown, SKYROVER.GCS.DeskTop, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Q_ASSIST_ANGLE.Parent" xml:space="preserve">
+    <value>groupBox20</value>
+  </data>
+  <data name="&gt;&gt;Q_ASSIST_ANGLE.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="label46.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label46.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 86</value>
+  </data>
+  <data name="label46.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 13</value>
+  </data>
+  <data name="label46.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="label46.Text" xml:space="preserve">
+    <value>辅助模式姿态角门限</value>
+  </data>
+  <data name="&gt;&gt;label46.Name" xml:space="preserve">
+    <value>label46</value>
+  </data>
+  <data name="&gt;&gt;label46.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label46.Parent" xml:space="preserve">
+    <value>groupBox20</value>
+  </data>
+  <data name="&gt;&gt;label46.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="Q_TRANSITION_MS.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="Q_TRANSITION_MS.Location" type="System.Drawing.Point, System.Drawing">
+    <value>140, 36</value>
+  </data>
+  <data name="Q_TRANSITION_MS.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 25</value>
+  </data>
+  <data name="Q_TRANSITION_MS.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;Q_TRANSITION_MS.Name" xml:space="preserve">
+    <value>Q_TRANSITION_MS</value>
+  </data>
+  <data name="&gt;&gt;Q_TRANSITION_MS.Type" xml:space="preserve">
+    <value>SKYROVER.GCS.DeskTop.Controls.MavlinkNumericUpDown, SKYROVER.GCS.DeskTop, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Q_TRANSITION_MS.Parent" xml:space="preserve">
+    <value>groupBox20</value>
+  </data>
+  <data name="&gt;&gt;Q_TRANSITION_MS.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="label47.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label47.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 40</value>
+  </data>
+  <data name="label47.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 13</value>
+  </data>
+  <data name="label47.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="label47.Text" xml:space="preserve">
+    <value>模式转换时间</value>
+  </data>
+  <data name="&gt;&gt;label47.Name" xml:space="preserve">
+    <value>label47</value>
+  </data>
+  <data name="&gt;&gt;label47.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label47.Parent" xml:space="preserve">
+    <value>groupBox20</value>
+  </data>
+  <data name="&gt;&gt;label47.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="ARSPD_FBW_MIN_1.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="ARSPD_FBW_MIN_1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>140, 13</value>
+  </data>
+  <data name="ARSPD_FBW_MIN_1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 25</value>
+  </data>
+  <data name="ARSPD_FBW_MIN_1.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;ARSPD_FBW_MIN_1.Name" xml:space="preserve">
+    <value>ARSPD_FBW_MIN_1</value>
+  </data>
+  <data name="&gt;&gt;ARSPD_FBW_MIN_1.Type" xml:space="preserve">
+    <value>SKYROVER.GCS.DeskTop.Controls.MavlinkNumericUpDown, SKYROVER.GCS.DeskTop, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ARSPD_FBW_MIN_1.Parent" xml:space="preserve">
+    <value>groupBox20</value>
+  </data>
+  <data name="&gt;&gt;ARSPD_FBW_MIN_1.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="label48.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label48.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 17</value>
+  </data>
+  <data name="label48.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 13</value>
+  </data>
+  <data name="label48.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="label48.Text" xml:space="preserve">
+    <value>固定翼飞行最低空速</value>
+  </data>
+  <data name="&gt;&gt;label48.Name" xml:space="preserve">
+    <value>label48</value>
+  </data>
+  <data name="&gt;&gt;label48.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label48.Parent" xml:space="preserve">
+    <value>groupBox20</value>
+  </data>
+  <data name="&gt;&gt;label48.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;Q_RTL_ALT.Name" xml:space="preserve">
+    <value>Q_RTL_ALT</value>
+  </data>
+  <data name="&gt;&gt;Q_RTL_ALT.Type" xml:space="preserve">
+    <value>SKYROVER.GCS.DeskTop.Controls.MavlinkNumericUpDown, SKYROVER.GCS.DeskTop, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Q_RTL_ALT.Parent" xml:space="preserve">
+    <value>groupBox21</value>
+  </data>
+  <data name="&gt;&gt;Q_RTL_ALT.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;label44.Name" xml:space="preserve">
+    <value>label44</value>
+  </data>
+  <data name="&gt;&gt;label44.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label44.Parent" xml:space="preserve">
+    <value>groupBox21</value>
+  </data>
+  <data name="&gt;&gt;label44.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;Q_RTL_MODE.Name" xml:space="preserve">
+    <value>Q_RTL_MODE</value>
+  </data>
+  <data name="&gt;&gt;Q_RTL_MODE.Type" xml:space="preserve">
+    <value>SKYROVER.GCS.DeskTop.Controls.MavlinkCheckBox, SKYROVER.GCS.DeskTop, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Q_RTL_MODE.Parent" xml:space="preserve">
+    <value>groupBox21</value>
+  </data>
+  <data name="&gt;&gt;Q_RTL_MODE.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;Q_GUIDED_MODE.Name" xml:space="preserve">
+    <value>Q_GUIDED_MODE</value>
+  </data>
+  <data name="&gt;&gt;Q_GUIDED_MODE.Type" xml:space="preserve">
+    <value>SKYROVER.GCS.DeskTop.Controls.MavlinkCheckBox, SKYROVER.GCS.DeskTop, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Q_GUIDED_MODE.Parent" xml:space="preserve">
+    <value>groupBox21</value>
+  </data>
+  <data name="&gt;&gt;Q_GUIDED_MODE.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;Q_LAND_FINAL_ALT.Name" xml:space="preserve">
+    <value>Q_LAND_FINAL_ALT</value>
+  </data>
+  <data name="&gt;&gt;Q_LAND_FINAL_ALT.Type" xml:space="preserve">
+    <value>SKYROVER.GCS.DeskTop.Controls.MavlinkNumericUpDown, SKYROVER.GCS.DeskTop, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Q_LAND_FINAL_ALT.Parent" xml:space="preserve">
+    <value>groupBox21</value>
+  </data>
+  <data name="&gt;&gt;Q_LAND_FINAL_ALT.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;Q_WP_SPEED_UP.Name" xml:space="preserve">
+    <value>Q_WP_SPEED_UP</value>
+  </data>
+  <data name="&gt;&gt;Q_WP_SPEED_UP.Type" xml:space="preserve">
+    <value>SKYROVER.GCS.DeskTop.Controls.MavlinkNumericUpDown, SKYROVER.GCS.DeskTop, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Q_WP_SPEED_UP.Parent" xml:space="preserve">
+    <value>groupBox21</value>
+  </data>
+  <data name="&gt;&gt;Q_WP_SPEED_UP.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;label81.Name" xml:space="preserve">
+    <value>label81</value>
+  </data>
+  <data name="&gt;&gt;label81.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label81.Parent" xml:space="preserve">
+    <value>groupBox21</value>
+  </data>
+  <data name="&gt;&gt;label81.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;label61.Name" xml:space="preserve">
+    <value>label61</value>
+  </data>
+  <data name="&gt;&gt;label61.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label61.Parent" xml:space="preserve">
+    <value>groupBox21</value>
+  </data>
+  <data name="&gt;&gt;label61.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;Q_LAND_SPEED.Name" xml:space="preserve">
+    <value>Q_LAND_SPEED</value>
+  </data>
+  <data name="&gt;&gt;Q_LAND_SPEED.Type" xml:space="preserve">
+    <value>SKYROVER.GCS.DeskTop.Controls.MavlinkNumericUpDown, SKYROVER.GCS.DeskTop, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Q_LAND_SPEED.Parent" xml:space="preserve">
+    <value>groupBox21</value>
+  </data>
+  <data name="&gt;&gt;Q_LAND_SPEED.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;Q_WP_RADIUS.Name" xml:space="preserve">
+    <value>Q_WP_RADIUS</value>
+  </data>
+  <data name="&gt;&gt;Q_WP_RADIUS.Type" xml:space="preserve">
+    <value>SKYROVER.GCS.DeskTop.Controls.MavlinkNumericUpDown, SKYROVER.GCS.DeskTop, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Q_WP_RADIUS.Parent" xml:space="preserve">
+    <value>groupBox21</value>
+  </data>
+  <data name="&gt;&gt;Q_WP_RADIUS.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;label80.Name" xml:space="preserve">
+    <value>label80</value>
+  </data>
+  <data name="&gt;&gt;label80.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label80.Parent" xml:space="preserve">
+    <value>groupBox21</value>
+  </data>
+  <data name="&gt;&gt;label80.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;Q_WP_SPEED_DN.Name" xml:space="preserve">
+    <value>Q_WP_SPEED_DN</value>
+  </data>
+  <data name="&gt;&gt;Q_WP_SPEED_DN.Type" xml:space="preserve">
+    <value>SKYROVER.GCS.DeskTop.Controls.MavlinkNumericUpDown, SKYROVER.GCS.DeskTop, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Q_WP_SPEED_DN.Parent" xml:space="preserve">
+    <value>groupBox21</value>
+  </data>
+  <data name="&gt;&gt;Q_WP_SPEED_DN.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;label62.Name" xml:space="preserve">
+    <value>label62</value>
+  </data>
+  <data name="&gt;&gt;label62.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label62.Parent" xml:space="preserve">
+    <value>groupBox21</value>
+  </data>
+  <data name="&gt;&gt;label62.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;label79.Name" xml:space="preserve">
+    <value>label79</value>
+  </data>
+  <data name="&gt;&gt;label79.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label79.Parent" xml:space="preserve">
+    <value>groupBox21</value>
+  </data>
+  <data name="&gt;&gt;label79.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;Q_WP_SPEED.Name" xml:space="preserve">
+    <value>Q_WP_SPEED</value>
+  </data>
+  <data name="&gt;&gt;Q_WP_SPEED.Type" xml:space="preserve">
+    <value>SKYROVER.GCS.DeskTop.Controls.MavlinkNumericUpDown, SKYROVER.GCS.DeskTop, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Q_WP_SPEED.Parent" xml:space="preserve">
+    <value>groupBox21</value>
+  </data>
+  <data name="&gt;&gt;Q_WP_SPEED.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;label63.Name" xml:space="preserve">
+    <value>label63</value>
+  </data>
+  <data name="&gt;&gt;label63.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label63.Parent" xml:space="preserve">
+    <value>groupBox21</value>
+  </data>
+  <data name="&gt;&gt;label63.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;label64.Name" xml:space="preserve">
+    <value>label64</value>
+  </data>
+  <data name="&gt;&gt;label64.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label64.Parent" xml:space="preserve">
+    <value>groupBox21</value>
+  </data>
+  <data name="&gt;&gt;label64.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;label77.Name" xml:space="preserve">
+    <value>label77</value>
+  </data>
+  <data name="&gt;&gt;label77.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label77.Parent" xml:space="preserve">
+    <value>groupBox21</value>
+  </data>
+  <data name="&gt;&gt;label77.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="groupBox21.Location" type="System.Drawing.Point, System.Drawing">
+    <value>499, 244</value>
+  </data>
+  <data name="groupBox21.Size" type="System.Drawing.Size, System.Drawing">
+    <value>238, 239</value>
+  </data>
+  <data name="groupBox21.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="groupBox21.Text" xml:space="preserve">
+    <value>航点导航</value>
+  </data>
+  <data name="&gt;&gt;groupBox21.Name" xml:space="preserve">
+    <value>groupBox21</value>
+  </data>
+  <data name="&gt;&gt;groupBox21.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox21.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;groupBox21.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Q_RTL_ALT.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="Q_RTL_ALT.Location" type="System.Drawing.Point, System.Drawing">
+    <value>105, 59</value>
+  </data>
+  <data name="Q_RTL_ALT.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 25</value>
+  </data>
+  <data name="Q_RTL_ALT.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;Q_RTL_ALT.Name" xml:space="preserve">
+    <value>Q_RTL_ALT</value>
+  </data>
+  <data name="&gt;&gt;Q_RTL_ALT.Type" xml:space="preserve">
+    <value>SKYROVER.GCS.DeskTop.Controls.MavlinkNumericUpDown, SKYROVER.GCS.DeskTop, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Q_RTL_ALT.Parent" xml:space="preserve">
+    <value>groupBox21</value>
+  </data>
+  <data name="&gt;&gt;Q_RTL_ALT.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label44.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label44.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 63</value>
+  </data>
+  <data name="label44.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 13</value>
+  </data>
+  <data name="label44.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="label44.Text" xml:space="preserve">
+    <value>返航高度</value>
+  </data>
+  <data name="&gt;&gt;label44.Name" xml:space="preserve">
+    <value>label44</value>
+  </data>
+  <data name="&gt;&gt;label44.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label44.Parent" xml:space="preserve">
+    <value>groupBox21</value>
+  </data>
+  <data name="&gt;&gt;label44.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Q_RTL_MODE.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Q_RTL_MODE.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="Q_RTL_MODE.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Q_RTL_MODE.Location" type="System.Drawing.Point, System.Drawing">
+    <value>105, 39</value>
+  </data>
+  <data name="Q_RTL_MODE.Size" type="System.Drawing.Size, System.Drawing">
+    <value>109, 19</value>
+  </data>
+  <data name="Q_RTL_MODE.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="Q_RTL_MODE.Text" xml:space="preserve">
+    <value>Q_RTL_MODE</value>
+  </data>
+  <data name="&gt;&gt;Q_RTL_MODE.Name" xml:space="preserve">
+    <value>Q_RTL_MODE</value>
+  </data>
+  <data name="&gt;&gt;Q_RTL_MODE.Type" xml:space="preserve">
+    <value>SKYROVER.GCS.DeskTop.Controls.MavlinkCheckBox, SKYROVER.GCS.DeskTop, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Q_RTL_MODE.Parent" xml:space="preserve">
+    <value>groupBox21</value>
+  </data>
+  <data name="&gt;&gt;Q_RTL_MODE.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Q_GUIDED_MODE.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Q_GUIDED_MODE.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="Q_GUIDED_MODE.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Q_GUIDED_MODE.Location" type="System.Drawing.Point, System.Drawing">
+    <value>105, 14</value>
+  </data>
+  <data name="Q_GUIDED_MODE.Size" type="System.Drawing.Size, System.Drawing">
+    <value>133, 19</value>
+  </data>
+  <data name="Q_GUIDED_MODE.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="Q_GUIDED_MODE.Text" xml:space="preserve">
+    <value>Q_GUIDED_MODE</value>
+  </data>
+  <data name="&gt;&gt;Q_GUIDED_MODE.Name" xml:space="preserve">
+    <value>Q_GUIDED_MODE</value>
+  </data>
+  <data name="&gt;&gt;Q_GUIDED_MODE.Type" xml:space="preserve">
+    <value>SKYROVER.GCS.DeskTop.Controls.MavlinkCheckBox, SKYROVER.GCS.DeskTop, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Q_GUIDED_MODE.Parent" xml:space="preserve">
+    <value>groupBox21</value>
+  </data>
+  <data name="&gt;&gt;Q_GUIDED_MODE.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="Q_LAND_FINAL_ALT.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="Q_LAND_FINAL_ALT.Location" type="System.Drawing.Point, System.Drawing">
+    <value>105, 210</value>
+  </data>
+  <data name="Q_LAND_FINAL_ALT.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 25</value>
+  </data>
+  <data name="Q_LAND_FINAL_ALT.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;Q_LAND_FINAL_ALT.Name" xml:space="preserve">
+    <value>Q_LAND_FINAL_ALT</value>
+  </data>
+  <data name="&gt;&gt;Q_LAND_FINAL_ALT.Type" xml:space="preserve">
+    <value>SKYROVER.GCS.DeskTop.Controls.MavlinkNumericUpDown, SKYROVER.GCS.DeskTop, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Q_LAND_FINAL_ALT.Parent" xml:space="preserve">
+    <value>groupBox21</value>
+  </data>
+  <data name="&gt;&gt;Q_LAND_FINAL_ALT.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="Q_WP_SPEED_UP.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="Q_WP_SPEED_UP.Location" type="System.Drawing.Point, System.Drawing">
+    <value>105, 134</value>
+  </data>
+  <data name="Q_WP_SPEED_UP.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 25</value>
+  </data>
+  <data name="Q_WP_SPEED_UP.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;Q_WP_SPEED_UP.Name" xml:space="preserve">
+    <value>Q_WP_SPEED_UP</value>
+  </data>
+  <data name="&gt;&gt;Q_WP_SPEED_UP.Type" xml:space="preserve">
+    <value>SKYROVER.GCS.DeskTop.Controls.MavlinkNumericUpDown, SKYROVER.GCS.DeskTop, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Q_WP_SPEED_UP.Parent" xml:space="preserve">
+    <value>groupBox21</value>
+  </data>
+  <data name="&gt;&gt;Q_WP_SPEED_UP.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="label81.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label81.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 214</value>
+  </data>
+  <data name="label81.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 13</value>
+  </data>
+  <data name="label81.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="label81.Text" xml:space="preserve">
+    <value>降落减速高度</value>
+  </data>
+  <data name="&gt;&gt;label81.Name" xml:space="preserve">
+    <value>label81</value>
+  </data>
+  <data name="&gt;&gt;label81.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label81.Parent" xml:space="preserve">
+    <value>groupBox21</value>
+  </data>
+  <data name="&gt;&gt;label81.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="label61.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label61.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 138</value>
+  </data>
+  <data name="label61.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 13</value>
+  </data>
+  <data name="label61.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="label61.Text" xml:space="preserve">
+    <value>上升速度</value>
+  </data>
+  <data name="&gt;&gt;label61.Name" xml:space="preserve">
+    <value>label61</value>
+  </data>
+  <data name="&gt;&gt;label61.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label61.Parent" xml:space="preserve">
+    <value>groupBox21</value>
+  </data>
+  <data name="&gt;&gt;label61.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Q_LAND_SPEED.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="Q_LAND_SPEED.Location" type="System.Drawing.Point, System.Drawing">
+    <value>105, 184</value>
+  </data>
+  <data name="Q_LAND_SPEED.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 25</value>
+  </data>
+  <data name="Q_LAND_SPEED.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;Q_LAND_SPEED.Name" xml:space="preserve">
+    <value>Q_LAND_SPEED</value>
+  </data>
+  <data name="&gt;&gt;Q_LAND_SPEED.Type" xml:space="preserve">
+    <value>SKYROVER.GCS.DeskTop.Controls.MavlinkNumericUpDown, SKYROVER.GCS.DeskTop, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Q_LAND_SPEED.Parent" xml:space="preserve">
+    <value>groupBox21</value>
+  </data>
+  <data name="&gt;&gt;Q_LAND_SPEED.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="Q_WP_RADIUS.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="Q_WP_RADIUS.Location" type="System.Drawing.Point, System.Drawing">
+    <value>105, 108</value>
+  </data>
+  <data name="Q_WP_RADIUS.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 25</value>
+  </data>
+  <data name="Q_WP_RADIUS.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;Q_WP_RADIUS.Name" xml:space="preserve">
+    <value>Q_WP_RADIUS</value>
+  </data>
+  <data name="&gt;&gt;Q_WP_RADIUS.Type" xml:space="preserve">
+    <value>SKYROVER.GCS.DeskTop.Controls.MavlinkNumericUpDown, SKYROVER.GCS.DeskTop, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Q_WP_RADIUS.Parent" xml:space="preserve">
+    <value>groupBox21</value>
+  </data>
+  <data name="&gt;&gt;Q_WP_RADIUS.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="label80.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label80.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 188</value>
+  </data>
+  <data name="label80.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 13</value>
+  </data>
+  <data name="label80.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="label80.Text" xml:space="preserve">
+    <value>降落速度</value>
+  </data>
+  <data name="&gt;&gt;label80.Name" xml:space="preserve">
+    <value>label80</value>
+  </data>
+  <data name="&gt;&gt;label80.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label80.Parent" xml:space="preserve">
+    <value>groupBox21</value>
+  </data>
+  <data name="&gt;&gt;label80.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="Q_WP_SPEED_DN.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="Q_WP_SPEED_DN.Location" type="System.Drawing.Point, System.Drawing">
+    <value>105, 158</value>
+  </data>
+  <data name="Q_WP_SPEED_DN.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 25</value>
+  </data>
+  <data name="Q_WP_SPEED_DN.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;Q_WP_SPEED_DN.Name" xml:space="preserve">
+    <value>Q_WP_SPEED_DN</value>
+  </data>
+  <data name="&gt;&gt;Q_WP_SPEED_DN.Type" xml:space="preserve">
+    <value>SKYROVER.GCS.DeskTop.Controls.MavlinkNumericUpDown, SKYROVER.GCS.DeskTop, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Q_WP_SPEED_DN.Parent" xml:space="preserve">
+    <value>groupBox21</value>
+  </data>
+  <data name="&gt;&gt;Q_WP_SPEED_DN.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="label62.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label62.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 112</value>
+  </data>
+  <data name="label62.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 13</value>
+  </data>
+  <data name="label62.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="label62.Text" xml:space="preserve">
+    <value>航点半径</value>
+  </data>
+  <data name="&gt;&gt;label62.Name" xml:space="preserve">
+    <value>label62</value>
+  </data>
+  <data name="&gt;&gt;label62.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label62.Parent" xml:space="preserve">
+    <value>groupBox21</value>
+  </data>
+  <data name="&gt;&gt;label62.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="label79.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label79.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 162</value>
+  </data>
+  <data name="label79.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 13</value>
+  </data>
+  <data name="label79.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="label79.Text" xml:space="preserve">
+    <value>下降速度</value>
+  </data>
+  <data name="&gt;&gt;label79.Name" xml:space="preserve">
+    <value>label79</value>
+  </data>
+  <data name="&gt;&gt;label79.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label79.Parent" xml:space="preserve">
+    <value>groupBox21</value>
+  </data>
+  <data name="&gt;&gt;label79.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="Q_WP_SPEED.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="Q_WP_SPEED.Location" type="System.Drawing.Point, System.Drawing">
+    <value>105, 82</value>
+  </data>
+  <data name="Q_WP_SPEED.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 25</value>
+  </data>
+  <data name="Q_WP_SPEED.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;Q_WP_SPEED.Name" xml:space="preserve">
+    <value>Q_WP_SPEED</value>
+  </data>
+  <data name="&gt;&gt;Q_WP_SPEED.Type" xml:space="preserve">
+    <value>SKYROVER.GCS.DeskTop.Controls.MavlinkNumericUpDown, SKYROVER.GCS.DeskTop, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Q_WP_SPEED.Parent" xml:space="preserve">
+    <value>groupBox21</value>
+  </data>
+  <data name="&gt;&gt;Q_WP_SPEED.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="label63.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label63.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 86</value>
+  </data>
+  <data name="label63.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 13</value>
+  </data>
+  <data name="label63.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="label63.Text" xml:space="preserve">
+    <value>航点速度</value>
+  </data>
+  <data name="&gt;&gt;label63.Name" xml:space="preserve">
+    <value>label63</value>
+  </data>
+  <data name="&gt;&gt;label63.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label63.Parent" xml:space="preserve">
+    <value>groupBox21</value>
+  </data>
+  <data name="&gt;&gt;label63.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="label64.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label64.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 40</value>
+  </data>
+  <data name="label64.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 13</value>
+  </data>
+  <data name="label64.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="label64.Text" xml:space="preserve">
+    <value>返航过程中启用混合控制模式</value>
+  </data>
+  <data name="&gt;&gt;label64.Name" xml:space="preserve">
+    <value>label64</value>
+  </data>
+  <data name="&gt;&gt;label64.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label64.Parent" xml:space="preserve">
+    <value>groupBox21</value>
+  </data>
+  <data name="&gt;&gt;label64.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="label77.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label77.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 17</value>
+  </data>
+  <data name="label77.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 13</value>
+  </data>
+  <data name="label77.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="label77.Text" xml:space="preserve">
+    <value>指点飞行模式中启用混合控制模式</value>
+  </data>
+  <data name="&gt;&gt;label77.Name" xml:space="preserve">
+    <value>label77</value>
+  </data>
+  <data name="&gt;&gt;label77.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label77.Parent" xml:space="preserve">
+    <value>groupBox21</value>
+  </data>
+  <data name="&gt;&gt;label77.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;Q_TILT_RATE_UP.Name" xml:space="preserve">
+    <value>Q_TILT_RATE_UP</value>
+  </data>
+  <data name="&gt;&gt;Q_TILT_RATE_UP.Type" xml:space="preserve">
+    <value>SKYROVER.GCS.DeskTop.Controls.MavlinkNumericUpDown, SKYROVER.GCS.DeskTop, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Q_TILT_RATE_UP.Parent" xml:space="preserve">
+    <value>groupBox22</value>
+  </data>
+  <data name="&gt;&gt;Q_TILT_RATE_UP.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Q_TILT_TYPE.Name" xml:space="preserve">
+    <value>Q_TILT_TYPE</value>
+  </data>
+  <data name="&gt;&gt;Q_TILT_TYPE.Type" xml:space="preserve">
+    <value>SKYROVER.GCS.DeskTop.Controls.MavlinkComboBox, SKYROVER.GCS.DeskTop, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Q_TILT_TYPE.Parent" xml:space="preserve">
+    <value>groupBox22</value>
+  </data>
+  <data name="&gt;&gt;Q_TILT_TYPE.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;label82.Name" xml:space="preserve">
+    <value>label82</value>
+  </data>
+  <data name="&gt;&gt;label82.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label82.Parent" xml:space="preserve">
+    <value>groupBox22</value>
+  </data>
+  <data name="&gt;&gt;label82.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;Q_TILT_MASK_4.Name" xml:space="preserve">
+    <value>Q_TILT_MASK_4</value>
+  </data>
+  <data name="&gt;&gt;Q_TILT_MASK_4.Type" xml:space="preserve">
+    <value>SKYROVER.GCS.DeskTop.Controls.MavlinkCheckBox, SKYROVER.GCS.DeskTop, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Q_TILT_MASK_4.Parent" xml:space="preserve">
+    <value>groupBox22</value>
+  </data>
+  <data name="&gt;&gt;Q_TILT_MASK_4.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;Q_TILT_MASK_6.Name" xml:space="preserve">
+    <value>Q_TILT_MASK_6</value>
+  </data>
+  <data name="&gt;&gt;Q_TILT_MASK_6.Type" xml:space="preserve">
+    <value>SKYROVER.GCS.DeskTop.Controls.MavlinkCheckBox, SKYROVER.GCS.DeskTop, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Q_TILT_MASK_6.Parent" xml:space="preserve">
+    <value>groupBox22</value>
+  </data>
+  <data name="&gt;&gt;Q_TILT_MASK_6.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;Q_TILT_MASK_8.Name" xml:space="preserve">
+    <value>Q_TILT_MASK_8</value>
+  </data>
+  <data name="&gt;&gt;Q_TILT_MASK_8.Type" xml:space="preserve">
+    <value>SKYROVER.GCS.DeskTop.Controls.MavlinkCheckBox, SKYROVER.GCS.DeskTop, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Q_TILT_MASK_8.Parent" xml:space="preserve">
+    <value>groupBox22</value>
+  </data>
+  <data name="&gt;&gt;Q_TILT_MASK_8.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;Q_TILT_MASK_3.Name" xml:space="preserve">
+    <value>Q_TILT_MASK_3</value>
+  </data>
+  <data name="&gt;&gt;Q_TILT_MASK_3.Type" xml:space="preserve">
+    <value>SKYROVER.GCS.DeskTop.Controls.MavlinkCheckBox, SKYROVER.GCS.DeskTop, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Q_TILT_MASK_3.Parent" xml:space="preserve">
+    <value>groupBox22</value>
+  </data>
+  <data name="&gt;&gt;Q_TILT_MASK_3.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;Q_TILT_MASK_5.Name" xml:space="preserve">
+    <value>Q_TILT_MASK_5</value>
+  </data>
+  <data name="&gt;&gt;Q_TILT_MASK_5.Type" xml:space="preserve">
+    <value>SKYROVER.GCS.DeskTop.Controls.MavlinkCheckBox, SKYROVER.GCS.DeskTop, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Q_TILT_MASK_5.Parent" xml:space="preserve">
+    <value>groupBox22</value>
+  </data>
+  <data name="&gt;&gt;Q_TILT_MASK_5.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;Q_TILT_MASK_7.Name" xml:space="preserve">
+    <value>Q_TILT_MASK_7</value>
+  </data>
+  <data name="&gt;&gt;Q_TILT_MASK_7.Type" xml:space="preserve">
+    <value>SKYROVER.GCS.DeskTop.Controls.MavlinkCheckBox, SKYROVER.GCS.DeskTop, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Q_TILT_MASK_7.Parent" xml:space="preserve">
+    <value>groupBox22</value>
+  </data>
+  <data name="&gt;&gt;Q_TILT_MASK_7.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;Q_TILT_MASK_2.Name" xml:space="preserve">
+    <value>Q_TILT_MASK_2</value>
+  </data>
+  <data name="&gt;&gt;Q_TILT_MASK_2.Type" xml:space="preserve">
+    <value>SKYROVER.GCS.DeskTop.Controls.MavlinkCheckBox, SKYROVER.GCS.DeskTop, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Q_TILT_MASK_2.Parent" xml:space="preserve">
+    <value>groupBox22</value>
+  </data>
+  <data name="&gt;&gt;Q_TILT_MASK_2.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;Q_TILT_MASK_1.Name" xml:space="preserve">
+    <value>Q_TILT_MASK_1</value>
+  </data>
+  <data name="&gt;&gt;Q_TILT_MASK_1.Type" xml:space="preserve">
+    <value>SKYROVER.GCS.DeskTop.Controls.MavlinkCheckBox, SKYROVER.GCS.DeskTop, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Q_TILT_MASK_1.Parent" xml:space="preserve">
+    <value>groupBox22</value>
+  </data>
+  <data name="&gt;&gt;Q_TILT_MASK_1.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;Q_TILT_YAW_ANGLE.Name" xml:space="preserve">
+    <value>Q_TILT_YAW_ANGLE</value>
+  </data>
+  <data name="&gt;&gt;Q_TILT_YAW_ANGLE.Type" xml:space="preserve">
+    <value>SKYROVER.GCS.DeskTop.Controls.MavlinkNumericUpDown, SKYROVER.GCS.DeskTop, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Q_TILT_YAW_ANGLE.Parent" xml:space="preserve">
+    <value>groupBox22</value>
+  </data>
+  <data name="&gt;&gt;Q_TILT_YAW_ANGLE.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;label84.Name" xml:space="preserve">
+    <value>label84</value>
+  </data>
+  <data name="&gt;&gt;label84.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label84.Parent" xml:space="preserve">
+    <value>groupBox22</value>
+  </data>
+  <data name="&gt;&gt;label84.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;Q_TILT_MAX.Name" xml:space="preserve">
+    <value>Q_TILT_MAX</value>
+  </data>
+  <data name="&gt;&gt;Q_TILT_MAX.Type" xml:space="preserve">
+    <value>SKYROVER.GCS.DeskTop.Controls.MavlinkNumericUpDown, SKYROVER.GCS.DeskTop, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Q_TILT_MAX.Parent" xml:space="preserve">
+    <value>groupBox22</value>
+  </data>
+  <data name="&gt;&gt;Q_TILT_MAX.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;label85.Name" xml:space="preserve">
+    <value>label85</value>
+  </data>
+  <data name="&gt;&gt;label85.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label85.Parent" xml:space="preserve">
+    <value>groupBox22</value>
+  </data>
+  <data name="&gt;&gt;label85.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;Q_TILT_RATE_DN.Name" xml:space="preserve">
+    <value>Q_TILT_RATE_DN</value>
+  </data>
+  <data name="&gt;&gt;Q_TILT_RATE_DN.Type" xml:space="preserve">
+    <value>SKYROVER.GCS.DeskTop.Controls.MavlinkNumericUpDown, SKYROVER.GCS.DeskTop, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Q_TILT_RATE_DN.Parent" xml:space="preserve">
+    <value>groupBox22</value>
+  </data>
+  <data name="&gt;&gt;Q_TILT_RATE_DN.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;label86.Name" xml:space="preserve">
+    <value>label86</value>
+  </data>
+  <data name="&gt;&gt;label86.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label86.Parent" xml:space="preserve">
+    <value>groupBox22</value>
+  </data>
+  <data name="&gt;&gt;label86.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;label87.Name" xml:space="preserve">
+    <value>label87</value>
+  </data>
+  <data name="&gt;&gt;label87.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label87.Parent" xml:space="preserve">
+    <value>groupBox22</value>
+  </data>
+  <data name="&gt;&gt;label87.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;label88.Name" xml:space="preserve">
+    <value>label88</value>
+  </data>
+  <data name="&gt;&gt;label88.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label88.Parent" xml:space="preserve">
+    <value>groupBox22</value>
+  </data>
+  <data name="&gt;&gt;label88.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="groupBox22.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 408</value>
+  </data>
+  <data name="groupBox22.Size" type="System.Drawing.Size, System.Drawing">
+    <value>238, 255</value>
+  </data>
+  <data name="groupBox22.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="groupBox22.Text" xml:space="preserve">
+    <value>倾转垂起功能</value>
+  </data>
+  <data name="&gt;&gt;groupBox22.Name" xml:space="preserve">
+    <value>groupBox22</value>
+  </data>
+  <data name="&gt;&gt;groupBox22.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox22.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;groupBox22.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="Q_TILT_RATE_UP.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="Q_TILT_RATE_UP.Location" type="System.Drawing.Point, System.Drawing">
+    <value>111, 142</value>
+  </data>
+  <data name="Q_TILT_RATE_UP.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 25</value>
+  </data>
+  <data name="Q_TILT_RATE_UP.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;Q_TILT_RATE_UP.Name" xml:space="preserve">
+    <value>Q_TILT_RATE_UP</value>
+  </data>
+  <data name="&gt;&gt;Q_TILT_RATE_UP.Type" xml:space="preserve">
+    <value>SKYROVER.GCS.DeskTop.Controls.MavlinkNumericUpDown, SKYROVER.GCS.DeskTop, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Q_TILT_RATE_UP.Parent" xml:space="preserve">
+    <value>groupBox22</value>
+  </data>
+  <data name="&gt;&gt;Q_TILT_RATE_UP.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Q_TILT_TYPE.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="Q_TILT_TYPE.Items" xml:space="preserve">
+    <value>Continuous</value>
+  </data>
+  <data name="Q_TILT_TYPE.Items1" xml:space="preserve">
+    <value>Binary</value>
+  </data>
+  <data name="Q_TILT_TYPE.Items2" xml:space="preserve">
+    <value>VectoredYaw</value>
+  </data>
+  <data name="Q_TILT_TYPE.Location" type="System.Drawing.Point, System.Drawing">
+    <value>110, 120</value>
+  </data>
+  <data name="Q_TILT_TYPE.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 23</value>
+  </data>
+  <data name="Q_TILT_TYPE.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;Q_TILT_TYPE.Name" xml:space="preserve">
+    <value>Q_TILT_TYPE</value>
+  </data>
+  <data name="&gt;&gt;Q_TILT_TYPE.Type" xml:space="preserve">
+    <value>SKYROVER.GCS.DeskTop.Controls.MavlinkComboBox, SKYROVER.GCS.DeskTop, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Q_TILT_TYPE.Parent" xml:space="preserve">
+    <value>groupBox22</value>
+  </data>
+  <data name="&gt;&gt;Q_TILT_TYPE.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label82.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label82.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 149</value>
+  </data>
+  <data name="label82.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 13</value>
+  </data>
+  <data name="label82.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="label82.Text" xml:space="preserve">
+    <value>倾转舵机抬升转速</value>
+  </data>
+  <data name="&gt;&gt;label82.Name" xml:space="preserve">
+    <value>label82</value>
+  </data>
+  <data name="&gt;&gt;label82.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label82.Parent" xml:space="preserve">
+    <value>groupBox22</value>
+  </data>
+  <data name="&gt;&gt;label82.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Q_TILT_MASK_4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Q_TILT_MASK_4.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="Q_TILT_MASK_4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Q_TILT_MASK_4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>110, 93</value>
+  </data>
+  <data name="Q_TILT_MASK_4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 19</value>
+  </data>
+  <data name="Q_TILT_MASK_4.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="Q_TILT_MASK_4.Text" xml:space="preserve">
+    <value>M4</value>
+  </data>
+  <data name="&gt;&gt;Q_TILT_MASK_4.Name" xml:space="preserve">
+    <value>Q_TILT_MASK_4</value>
+  </data>
+  <data name="&gt;&gt;Q_TILT_MASK_4.Type" xml:space="preserve">
+    <value>SKYROVER.GCS.DeskTop.Controls.MavlinkCheckBox, SKYROVER.GCS.DeskTop, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Q_TILT_MASK_4.Parent" xml:space="preserve">
+    <value>groupBox22</value>
+  </data>
+  <data name="&gt;&gt;Q_TILT_MASK_4.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="Q_TILT_MASK_6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Q_TILT_MASK_6.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="Q_TILT_MASK_6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Q_TILT_MASK_6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>185, 41</value>
+  </data>
+  <data name="Q_TILT_MASK_6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 19</value>
+  </data>
+  <data name="Q_TILT_MASK_6.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="Q_TILT_MASK_6.Text" xml:space="preserve">
+    <value>M6</value>
+  </data>
+  <data name="&gt;&gt;Q_TILT_MASK_6.Name" xml:space="preserve">
+    <value>Q_TILT_MASK_6</value>
+  </data>
+  <data name="&gt;&gt;Q_TILT_MASK_6.Type" xml:space="preserve">
+    <value>SKYROVER.GCS.DeskTop.Controls.MavlinkCheckBox, SKYROVER.GCS.DeskTop, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Q_TILT_MASK_6.Parent" xml:space="preserve">
+    <value>groupBox22</value>
+  </data>
+  <data name="&gt;&gt;Q_TILT_MASK_6.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="Q_TILT_MASK_8.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Q_TILT_MASK_8.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="Q_TILT_MASK_8.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Q_TILT_MASK_8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>185, 93</value>
+  </data>
+  <data name="Q_TILT_MASK_8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 19</value>
+  </data>
+  <data name="Q_TILT_MASK_8.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="Q_TILT_MASK_8.Text" xml:space="preserve">
+    <value>M8</value>
+  </data>
+  <data name="&gt;&gt;Q_TILT_MASK_8.Name" xml:space="preserve">
+    <value>Q_TILT_MASK_8</value>
+  </data>
+  <data name="&gt;&gt;Q_TILT_MASK_8.Type" xml:space="preserve">
+    <value>SKYROVER.GCS.DeskTop.Controls.MavlinkCheckBox, SKYROVER.GCS.DeskTop, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Q_TILT_MASK_8.Parent" xml:space="preserve">
+    <value>groupBox22</value>
+  </data>
+  <data name="&gt;&gt;Q_TILT_MASK_8.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="Q_TILT_MASK_3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Q_TILT_MASK_3.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="Q_TILT_MASK_3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Q_TILT_MASK_3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>110, 67</value>
+  </data>
+  <data name="Q_TILT_MASK_3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 19</value>
+  </data>
+  <data name="Q_TILT_MASK_3.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="Q_TILT_MASK_3.Text" xml:space="preserve">
+    <value>M3</value>
+  </data>
+  <data name="&gt;&gt;Q_TILT_MASK_3.Name" xml:space="preserve">
+    <value>Q_TILT_MASK_3</value>
+  </data>
+  <data name="&gt;&gt;Q_TILT_MASK_3.Type" xml:space="preserve">
+    <value>SKYROVER.GCS.DeskTop.Controls.MavlinkCheckBox, SKYROVER.GCS.DeskTop, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Q_TILT_MASK_3.Parent" xml:space="preserve">
+    <value>groupBox22</value>
+  </data>
+  <data name="&gt;&gt;Q_TILT_MASK_3.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="Q_TILT_MASK_5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Q_TILT_MASK_5.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="Q_TILT_MASK_5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Q_TILT_MASK_5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>185, 15</value>
+  </data>
+  <data name="Q_TILT_MASK_5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 19</value>
+  </data>
+  <data name="Q_TILT_MASK_5.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="Q_TILT_MASK_5.Text" xml:space="preserve">
+    <value>M5</value>
+  </data>
+  <data name="&gt;&gt;Q_TILT_MASK_5.Name" xml:space="preserve">
+    <value>Q_TILT_MASK_5</value>
+  </data>
+  <data name="&gt;&gt;Q_TILT_MASK_5.Type" xml:space="preserve">
+    <value>SKYROVER.GCS.DeskTop.Controls.MavlinkCheckBox, SKYROVER.GCS.DeskTop, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Q_TILT_MASK_5.Parent" xml:space="preserve">
+    <value>groupBox22</value>
+  </data>
+  <data name="&gt;&gt;Q_TILT_MASK_5.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Q_TILT_MASK_7.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Q_TILT_MASK_7.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="Q_TILT_MASK_7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Q_TILT_MASK_7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>185, 67</value>
+  </data>
+  <data name="Q_TILT_MASK_7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 19</value>
+  </data>
+  <data name="Q_TILT_MASK_7.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="Q_TILT_MASK_7.Text" xml:space="preserve">
+    <value>M7</value>
+  </data>
+  <data name="&gt;&gt;Q_TILT_MASK_7.Name" xml:space="preserve">
+    <value>Q_TILT_MASK_7</value>
+  </data>
+  <data name="&gt;&gt;Q_TILT_MASK_7.Type" xml:space="preserve">
+    <value>SKYROVER.GCS.DeskTop.Controls.MavlinkCheckBox, SKYROVER.GCS.DeskTop, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Q_TILT_MASK_7.Parent" xml:space="preserve">
+    <value>groupBox22</value>
+  </data>
+  <data name="&gt;&gt;Q_TILT_MASK_7.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="Q_TILT_MASK_2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Q_TILT_MASK_2.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="Q_TILT_MASK_2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Q_TILT_MASK_2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>110, 41</value>
+  </data>
+  <data name="Q_TILT_MASK_2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 19</value>
+  </data>
+  <data name="Q_TILT_MASK_2.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="Q_TILT_MASK_2.Text" xml:space="preserve">
+    <value>M2</value>
+  </data>
+  <data name="&gt;&gt;Q_TILT_MASK_2.Name" xml:space="preserve">
+    <value>Q_TILT_MASK_2</value>
+  </data>
+  <data name="&gt;&gt;Q_TILT_MASK_2.Type" xml:space="preserve">
+    <value>SKYROVER.GCS.DeskTop.Controls.MavlinkCheckBox, SKYROVER.GCS.DeskTop, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Q_TILT_MASK_2.Parent" xml:space="preserve">
+    <value>groupBox22</value>
+  </data>
+  <data name="&gt;&gt;Q_TILT_MASK_2.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="Q_TILT_MASK_1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Q_TILT_MASK_1.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="Q_TILT_MASK_1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Q_TILT_MASK_1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>110, 15</value>
+  </data>
+  <data name="Q_TILT_MASK_1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 19</value>
+  </data>
+  <data name="Q_TILT_MASK_1.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="Q_TILT_MASK_1.Text" xml:space="preserve">
+    <value>M1</value>
+  </data>
+  <data name="&gt;&gt;Q_TILT_MASK_1.Name" xml:space="preserve">
+    <value>Q_TILT_MASK_1</value>
+  </data>
+  <data name="&gt;&gt;Q_TILT_MASK_1.Type" xml:space="preserve">
+    <value>SKYROVER.GCS.DeskTop.Controls.MavlinkCheckBox, SKYROVER.GCS.DeskTop, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Q_TILT_MASK_1.Parent" xml:space="preserve">
+    <value>groupBox22</value>
+  </data>
+  <data name="&gt;&gt;Q_TILT_MASK_1.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="Q_TILT_YAW_ANGLE.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="Q_TILT_YAW_ANGLE.Location" type="System.Drawing.Point, System.Drawing">
+    <value>111, 217</value>
+  </data>
+  <data name="Q_TILT_YAW_ANGLE.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 25</value>
+  </data>
+  <data name="Q_TILT_YAW_ANGLE.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;Q_TILT_YAW_ANGLE.Name" xml:space="preserve">
+    <value>Q_TILT_YAW_ANGLE</value>
+  </data>
+  <data name="&gt;&gt;Q_TILT_YAW_ANGLE.Type" xml:space="preserve">
+    <value>SKYROVER.GCS.DeskTop.Controls.MavlinkNumericUpDown, SKYROVER.GCS.DeskTop, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Q_TILT_YAW_ANGLE.Parent" xml:space="preserve">
+    <value>groupBox22</value>
+  </data>
+  <data name="&gt;&gt;Q_TILT_YAW_ANGLE.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="label84.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label84.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 224</value>
+  </data>
+  <data name="label84.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 13</value>
+  </data>
+  <data name="label84.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="label84.Text" xml:space="preserve">
+    <value>差动横滚控制舵机幅度</value>
+  </data>
+  <data name="&gt;&gt;label84.Name" xml:space="preserve">
+    <value>label84</value>
+  </data>
+  <data name="&gt;&gt;label84.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label84.Parent" xml:space="preserve">
+    <value>groupBox22</value>
+  </data>
+  <data name="&gt;&gt;label84.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="Q_TILT_MAX.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="Q_TILT_MAX.Location" type="System.Drawing.Point, System.Drawing">
+    <value>111, 191</value>
+  </data>
+  <data name="Q_TILT_MAX.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 25</value>
+  </data>
+  <data name="Q_TILT_MAX.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;Q_TILT_MAX.Name" xml:space="preserve">
+    <value>Q_TILT_MAX</value>
+  </data>
+  <data name="&gt;&gt;Q_TILT_MAX.Type" xml:space="preserve">
+    <value>SKYROVER.GCS.DeskTop.Controls.MavlinkNumericUpDown, SKYROVER.GCS.DeskTop, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Q_TILT_MAX.Parent" xml:space="preserve">
+    <value>groupBox22</value>
+  </data>
+  <data name="&gt;&gt;Q_TILT_MAX.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="label85.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label85.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 198</value>
+  </data>
+  <data name="label85.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 13</value>
+  </data>
+  <data name="label85.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="label85.Text" xml:space="preserve">
+    <value>旋翼/固定翼切换角度门限</value>
+  </data>
+  <data name="&gt;&gt;label85.Name" xml:space="preserve">
+    <value>label85</value>
+  </data>
+  <data name="&gt;&gt;label85.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label85.Parent" xml:space="preserve">
+    <value>groupBox22</value>
+  </data>
+  <data name="&gt;&gt;label85.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="Q_TILT_RATE_DN.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="Q_TILT_RATE_DN.Location" type="System.Drawing.Point, System.Drawing">
+    <value>111, 165</value>
+  </data>
+  <data name="Q_TILT_RATE_DN.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 25</value>
+  </data>
+  <data name="Q_TILT_RATE_DN.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;Q_TILT_RATE_DN.Name" xml:space="preserve">
+    <value>Q_TILT_RATE_DN</value>
+  </data>
+  <data name="&gt;&gt;Q_TILT_RATE_DN.Type" xml:space="preserve">
+    <value>SKYROVER.GCS.DeskTop.Controls.MavlinkNumericUpDown, SKYROVER.GCS.DeskTop, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Q_TILT_RATE_DN.Parent" xml:space="preserve">
+    <value>groupBox22</value>
+  </data>
+  <data name="&gt;&gt;Q_TILT_RATE_DN.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="label86.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label86.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 172</value>
+  </data>
+  <data name="label86.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 13</value>
+  </data>
+  <data name="label86.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="label86.Text" xml:space="preserve">
+    <value>倾转舵机放平转速</value>
+  </data>
+  <data name="&gt;&gt;label86.Name" xml:space="preserve">
+    <value>label86</value>
+  </data>
+  <data name="&gt;&gt;label86.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label86.Parent" xml:space="preserve">
+    <value>groupBox22</value>
+  </data>
+  <data name="&gt;&gt;label86.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="label87.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label87.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 126</value>
+  </data>
+  <data name="label87.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 13</value>
+  </data>
+  <data name="label87.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="label87.Text" xml:space="preserve">
+    <value>倾转电机类型</value>
+  </data>
+  <data name="&gt;&gt;label87.Name" xml:space="preserve">
+    <value>label87</value>
+  </data>
+  <data name="&gt;&gt;label87.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label87.Parent" xml:space="preserve">
+    <value>groupBox22</value>
+  </data>
+  <data name="&gt;&gt;label87.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="label88.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label88.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 17</value>
+  </data>
+  <data name="label88.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 13</value>
+  </data>
+  <data name="label88.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="label88.Text" xml:space="preserve">
+    <value>倾转电机项</value>
+  </data>
+  <data name="&gt;&gt;label88.Name" xml:space="preserve">
+    <value>label88</value>
+  </data>
+  <data name="&gt;&gt;label88.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label88.Parent" xml:space="preserve">
+    <value>groupBox22</value>
+  </data>
+  <data name="&gt;&gt;label88.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;Q_TAILSIT_MASK.Name" xml:space="preserve">
+    <value>Q_TAILSIT_MASK</value>
+  </data>
+  <data name="&gt;&gt;Q_TAILSIT_MASK.Type" xml:space="preserve">
+    <value>SKYROVER.GCS.DeskTop.Controls.MavlinkCheckBoxBitMask, SKYROVER.GCS.DeskTop, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Q_TAILSIT_MASK.Parent" xml:space="preserve">
+    <value>groupBox23</value>
+  </data>
+  <data name="&gt;&gt;Q_TAILSIT_MASK.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Q_TAILSIT_INPUT.Name" xml:space="preserve">
+    <value>Q_TAILSIT_INPUT</value>
+  </data>
+  <data name="&gt;&gt;Q_TAILSIT_INPUT.Type" xml:space="preserve">
+    <value>SKYROVER.GCS.DeskTop.Controls.MavlinkComboBox, SKYROVER.GCS.DeskTop, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Q_TAILSIT_INPUT.Parent" xml:space="preserve">
+    <value>groupBox23</value>
+  </data>
+  <data name="&gt;&gt;Q_TAILSIT_INPUT.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;Q_TAILSIT_MASKCH.Name" xml:space="preserve">
+    <value>Q_TAILSIT_MASKCH</value>
+  </data>
+  <data name="&gt;&gt;Q_TAILSIT_MASKCH.Type" xml:space="preserve">
+    <value>SKYROVER.GCS.DeskTop.Controls.MavlinkComboBox, SKYROVER.GCS.DeskTop, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Q_TAILSIT_MASKCH.Parent" xml:space="preserve">
+    <value>groupBox23</value>
+  </data>
+  <data name="&gt;&gt;Q_TAILSIT_MASKCH.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;label91.Name" xml:space="preserve">
+    <value>label91</value>
+  </data>
+  <data name="&gt;&gt;label91.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label91.Parent" xml:space="preserve">
+    <value>groupBox23</value>
+  </data>
+  <data name="&gt;&gt;label91.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;label92.Name" xml:space="preserve">
+    <value>label92</value>
+  </data>
+  <data name="&gt;&gt;label92.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label92.Parent" xml:space="preserve">
+    <value>groupBox23</value>
+  </data>
+  <data name="&gt;&gt;label92.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;Q_TAILSIT_ANGLE.Name" xml:space="preserve">
+    <value>Q_TAILSIT_ANGLE</value>
+  </data>
+  <data name="&gt;&gt;Q_TAILSIT_ANGLE.Type" xml:space="preserve">
+    <value>SKYROVER.GCS.DeskTop.Controls.MavlinkNumericUpDown, SKYROVER.GCS.DeskTop, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Q_TAILSIT_ANGLE.Parent" xml:space="preserve">
+    <value>groupBox23</value>
+  </data>
+  <data name="&gt;&gt;Q_TAILSIT_ANGLE.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;label93.Name" xml:space="preserve">
+    <value>label93</value>
+  </data>
+  <data name="&gt;&gt;label93.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label93.Parent" xml:space="preserve">
+    <value>groupBox23</value>
+  </data>
+  <data name="&gt;&gt;label93.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="groupBox23.Location" type="System.Drawing.Point, System.Drawing">
+    <value>253, 408</value>
+  </data>
+  <data name="groupBox23.Size" type="System.Drawing.Size, System.Drawing">
+    <value>241, 255</value>
+  </data>
+  <data name="groupBox23.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="groupBox23.Text" xml:space="preserve">
+    <value>尾座式垂起功能</value>
+  </data>
+  <data name="&gt;&gt;groupBox23.Name" xml:space="preserve">
+    <value>groupBox23</value>
+  </data>
+  <data name="&gt;&gt;groupBox23.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox23.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;groupBox23.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="Q_TAILSIT_MASK.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="Q_TAILSIT_MASK.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 102</value>
+  </data>
+  <data name="Q_TAILSIT_MASK.Size" type="System.Drawing.Size, System.Drawing">
+    <value>227, 106</value>
+  </data>
+  <data name="Q_TAILSIT_MASK.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;Q_TAILSIT_MASK.Name" xml:space="preserve">
+    <value>Q_TAILSIT_MASK</value>
+  </data>
+  <data name="&gt;&gt;Q_TAILSIT_MASK.Type" xml:space="preserve">
+    <value>SKYROVER.GCS.DeskTop.Controls.MavlinkCheckBoxBitMask, SKYROVER.GCS.DeskTop, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Q_TAILSIT_MASK.Parent" xml:space="preserve">
+    <value>groupBox23</value>
+  </data>
+  <data name="&gt;&gt;Q_TAILSIT_MASK.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Q_TAILSIT_INPUT.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="Q_TAILSIT_INPUT.Items" xml:space="preserve">
+    <value>MultiCopterInput</value>
+  </data>
+  <data name="Q_TAILSIT_INPUT.Items1" xml:space="preserve">
+    <value>FixedWingInput</value>
+  </data>
+  <data name="Q_TAILSIT_INPUT.Location" type="System.Drawing.Point, System.Drawing">
+    <value>110, 44</value>
+  </data>
+  <data name="Q_TAILSIT_INPUT.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 23</value>
+  </data>
+  <data name="Q_TAILSIT_INPUT.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;Q_TAILSIT_INPUT.Name" xml:space="preserve">
+    <value>Q_TAILSIT_INPUT</value>
+  </data>
+  <data name="&gt;&gt;Q_TAILSIT_INPUT.Type" xml:space="preserve">
+    <value>SKYROVER.GCS.DeskTop.Controls.MavlinkComboBox, SKYROVER.GCS.DeskTop, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Q_TAILSIT_INPUT.Parent" xml:space="preserve">
+    <value>groupBox23</value>
+  </data>
+  <data name="&gt;&gt;Q_TAILSIT_INPUT.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Q_TAILSIT_MASKCH.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="Q_TAILSIT_MASKCH.Items" xml:space="preserve">
+    <value>Disabled</value>
+  </data>
+  <data name="Q_TAILSIT_MASKCH.Items1" xml:space="preserve">
+    <value>Channel1</value>
+  </data>
+  <data name="Q_TAILSIT_MASKCH.Items2" xml:space="preserve">
+    <value>Channel2</value>
+  </data>
+  <data name="Q_TAILSIT_MASKCH.Items3" xml:space="preserve">
+    <value>Channel3</value>
+  </data>
+  <data name="Q_TAILSIT_MASKCH.Items4" xml:space="preserve">
+    <value>Channel4</value>
+  </data>
+  <data name="Q_TAILSIT_MASKCH.Items5" xml:space="preserve">
+    <value>Channel5</value>
+  </data>
+  <data name="Q_TAILSIT_MASKCH.Items6" xml:space="preserve">
+    <value>Channel6</value>
+  </data>
+  <data name="Q_TAILSIT_MASKCH.Items7" xml:space="preserve">
+    <value>Channel7</value>
+  </data>
+  <data name="Q_TAILSIT_MASKCH.Items8" xml:space="preserve">
+    <value>Channel8</value>
+  </data>
+  <data name="Q_TAILSIT_MASKCH.Location" type="System.Drawing.Point, System.Drawing">
+    <value>109, 73</value>
+  </data>
+  <data name="Q_TAILSIT_MASKCH.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 23</value>
+  </data>
+  <data name="Q_TAILSIT_MASKCH.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;Q_TAILSIT_MASKCH.Name" xml:space="preserve">
+    <value>Q_TAILSIT_MASKCH</value>
+  </data>
+  <data name="&gt;&gt;Q_TAILSIT_MASKCH.Type" xml:space="preserve">
+    <value>SKYROVER.GCS.DeskTop.Controls.MavlinkComboBox, SKYROVER.GCS.DeskTop, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Q_TAILSIT_MASKCH.Parent" xml:space="preserve">
+    <value>groupBox23</value>
+  </data>
+  <data name="&gt;&gt;Q_TAILSIT_MASKCH.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="label91.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label91.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 75</value>
+  </data>
+  <data name="label91.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 13</value>
+  </data>
+  <data name="label91.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="label91.Text" xml:space="preserve">
+    <value>手动控制舵面切换通道</value>
+  </data>
+  <data name="&gt;&gt;label91.Name" xml:space="preserve">
+    <value>label91</value>
+  </data>
+  <data name="&gt;&gt;label91.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label91.Parent" xml:space="preserve">
+    <value>groupBox23</value>
+  </data>
+  <data name="&gt;&gt;label91.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="label92.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label92.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 40</value>
+  </data>
+  <data name="label92.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 13</value>
+  </data>
+  <data name="label92.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="label92.Text" xml:space="preserve">
+    <value>垂直飞行阶段控制模式</value>
+  </data>
+  <data name="&gt;&gt;label92.Name" xml:space="preserve">
+    <value>label92</value>
+  </data>
+  <data name="&gt;&gt;label92.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label92.Parent" xml:space="preserve">
+    <value>groupBox23</value>
+  </data>
+  <data name="&gt;&gt;label92.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="Q_TAILSIT_ANGLE.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="Q_TAILSIT_ANGLE.Location" type="System.Drawing.Point, System.Drawing">
+    <value>111, 13</value>
+  </data>
+  <data name="Q_TAILSIT_ANGLE.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 25</value>
+  </data>
+  <data name="Q_TAILSIT_ANGLE.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;Q_TAILSIT_ANGLE.Name" xml:space="preserve">
+    <value>Q_TAILSIT_ANGLE</value>
+  </data>
+  <data name="&gt;&gt;Q_TAILSIT_ANGLE.Type" xml:space="preserve">
+    <value>SKYROVER.GCS.DeskTop.Controls.MavlinkNumericUpDown, SKYROVER.GCS.DeskTop, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Q_TAILSIT_ANGLE.Parent" xml:space="preserve">
+    <value>groupBox23</value>
+  </data>
+  <data name="&gt;&gt;Q_TAILSIT_ANGLE.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="label93.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label93.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 17</value>
+  </data>
+  <data name="label93.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 13</value>
+  </data>
+  <data name="label93.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="label93.Text" xml:space="preserve">
+    <value>旋翼/固定翼切换角度门限</value>
+  </data>
+  <data name="&gt;&gt;label93.Name" xml:space="preserve">
+    <value>label93</value>
+  </data>
+  <data name="&gt;&gt;label93.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label93.Parent" xml:space="preserve">
+    <value>groupBox23</value>
+  </data>
+  <data name="&gt;&gt;label93.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>500, 489</value>
+  </data>
+  <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>237, 174</value>
+  </data>
+  <data name="groupBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Name" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>25</value>
+  </metadata>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>754, 683</value>
+  </data>
+  <data name="&gt;&gt;toolTip1.Name" xml:space="preserve">
+    <value>toolTip1</value>
+  </data>
+  <data name="&gt;&gt;toolTip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>ConfigArduplane</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.UserControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

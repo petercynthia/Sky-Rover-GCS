@@ -1,0 +1,13 @@
+﻿<UserControl x:Class="SKYROVER.GCS.DeskTop.Controls.QuickView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:SKYROVER.GCS.DeskTop.Controls"
+             mc:Ignorable="d" Height="55.703" Width="121.75">
+    <Grid Margin="0,0,0,185">
+        <Label Content="altitude" HorizontalAlignment="Left" Height="22" Margin="3,0,0,-22" VerticalAlignment="Top" Width="118"/>
+        <Label Content="0.0000" HorizontalAlignment="Left" Height="27" Margin="3,27,0,-54" VerticalAlignment="Top" Width="118"/>
+
+    </Grid>
+</UserControl>
