@@ -20,7 +20,7 @@ namespace SKYROVER.GCS.DeskTop.MenuItems
     public partial class frmWayPointCommands : BaseForm
     {
         public event MAVCommandsParameterChange MAVCommandsParameterChangeEvent;
-
+        
         List<Locationwp> mCtlHoverMAVs;
         /// <summary>
         /// 
@@ -97,10 +97,20 @@ namespace SKYROVER.GCS.DeskTop.MenuItems
             btnThrowMAV.OnClickEvent += BtnThrowMAV_OnClickEvent;
         }
 
+       
+
         private void BtnThrowMAV_OnClickEvent(string man)
         {
+            if (Settings.config["txtServoChanel1"] == null || Settings.config["txtSC1PWMOn"] == null)
+            {
+                MessageBox.Show("请检查配置信息！","错误",MessageBoxButtons.OK,MessageBoxIcon.Error);
+                return;
+            }
             CtlDoSetServoMAV ctlDoSetServoMAV = new CtlDoSetServoMAV() { Width = this.commandContainer.Width - 6 };
-            ctlDoSetServoMAV.SetParameters(5, 1700);
+            
+
+            ctlDoSetServoMAV.SetParameters(int.Parse(Settings.config["txtServoChanel1"]), int.Parse(Settings.config["txtSC1PWMOn"]));
+
             ctlDoSetServoMAV.AfterDeleteMAVEvent += CtlDoSetServoMAV_AfterDeleteMAVEvent;
             this.commandContainer.Controls.Add(ctlDoSetServoMAV);
         }

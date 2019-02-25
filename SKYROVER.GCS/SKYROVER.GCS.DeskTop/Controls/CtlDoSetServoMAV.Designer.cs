@@ -35,6 +35,7 @@
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.jettisonTwo = new System.Windows.Forms.RadioButton();
             this.jettisonOne = new System.Windows.Forms.RadioButton();
+            this.btnSwitch = new MetroSet_UI.Controls.MetroSetSwitch();
             this.tableLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.groupBox1.SuspendLayout();
@@ -99,6 +100,7 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.btnSwitch);
             this.groupBox1.Controls.Add(this.jettisonTwo);
             this.groupBox1.Controls.Add(this.jettisonOne);
             this.groupBox1.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -112,7 +114,7 @@
             // 
             this.jettisonTwo.AutoSize = true;
             this.jettisonTwo.ForeColor = System.Drawing.Color.White;
-            this.jettisonTwo.Location = new System.Drawing.Point(176, 20);
+            this.jettisonTwo.Location = new System.Drawing.Point(111, 20);
             this.jettisonTwo.Name = "jettisonTwo";
             this.jettisonTwo.Size = new System.Drawing.Size(60, 19);
             this.jettisonTwo.TabIndex = 1;
@@ -125,7 +127,7 @@
             // 
             this.jettisonOne.AutoSize = true;
             this.jettisonOne.ForeColor = System.Drawing.Color.White;
-            this.jettisonOne.Location = new System.Drawing.Point(22, 20);
+            this.jettisonOne.Location = new System.Drawing.Point(11, 20);
             this.jettisonOne.Name = "jettisonOne";
             this.jettisonOne.Size = new System.Drawing.Size(60, 19);
             this.jettisonOne.TabIndex = 0;
@@ -133,6 +135,32 @@
             this.jettisonOne.Text = "NO.1";
             this.jettisonOne.UseVisualStyleBackColor = true;
             this.jettisonOne.CheckedChanged += new System.EventHandler(this.jettisonOne_CheckedChanged);
+            // 
+            // btnSwitch
+            // 
+            this.btnSwitch.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnSwitch.BackColor = System.Drawing.Color.Transparent;
+            this.btnSwitch.BackgroundColor = System.Drawing.Color.Empty;
+            this.btnSwitch.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(165)))), ((int)(((byte)(159)))), ((int)(((byte)(147)))));
+            this.btnSwitch.CheckColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(177)))), ((int)(((byte)(225)))));
+            this.btnSwitch.CheckState = MetroSet_UI.Enums.CheckState.Unchecked;
+            this.btnSwitch.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnSwitch.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(205)))), ((int)(((byte)(205)))), ((int)(((byte)(205)))));
+            this.btnSwitch.DisabledCheckColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(65)))), ((int)(((byte)(177)))), ((int)(((byte)(225)))));
+            this.btnSwitch.DisabledUnCheckColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(205)))), ((int)(((byte)(205)))), ((int)(((byte)(205)))));
+            this.btnSwitch.Location = new System.Drawing.Point(234, 17);
+            this.btnSwitch.Name = "btnSwitch";
+            this.btnSwitch.Size = new System.Drawing.Size(58, 22);
+            this.btnSwitch.Style = MetroSet_UI.Design.Style.Light;
+            this.btnSwitch.StyleManager = null;
+            this.btnSwitch.Switched = false;
+            this.btnSwitch.SymbolColor = System.Drawing.Color.FromArgb(((int)(((byte)(92)))), ((int)(((byte)(92)))), ((int)(((byte)(92)))));
+            this.btnSwitch.TabIndex = 16;
+            this.btnSwitch.Text = "metroSetSwitch2";
+            this.btnSwitch.ThemeAuthor = "Narwin";
+            this.btnSwitch.ThemeName = "MetroLite";
+            this.btnSwitch.UnCheckColor = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(155)))), ((int)(((byte)(155)))));
+            this.btnSwitch.SwitchedChanged += new MetroSet_UI.Controls.MetroSetSwitch.SwitchedChangedEventHandler(this.btnSwitch_SwitchedChanged);
             // 
             // CtlDoSetServoMAV
             // 
@@ -158,5 +186,6 @@
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.RadioButton jettisonTwo;
         private System.Windows.Forms.RadioButton jettisonOne;
+        private MetroSet_UI.Controls.MetroSetSwitch btnSwitch;
     }
 }
