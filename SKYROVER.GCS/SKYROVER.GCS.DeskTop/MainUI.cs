@@ -195,7 +195,7 @@ namespace SKYROVER.GCS.DeskTop
         internal static GMapOverlay rallypointoverlay;
         internal static GMapOverlay poioverlay = new GMapOverlay("POI"); // poi layer
         public static GMapOverlay homelayer;
-
+        public readonly GMapOverlay cacheLayer = new GMapOverlay("cacheLayer");
         List<PointLatLng> trackPoints = new List<PointLatLng>();
         private Propagation prop;
         
@@ -1244,6 +1244,8 @@ namespace SKYROVER.GCS.DeskTop
 
             homelayer = new GMapOverlay("homelayer");
             mMapControl.Overlays.Add(homelayer);
+
+            mMapControl.Overlays.Add(cacheLayer);
 
             
         }
@@ -3038,6 +3040,10 @@ namespace SKYROVER.GCS.DeskTop
                 setting.Owner = this;
                 setting.StartPosition = FormStartPosition.Manual;
                 setting.Location = new Point(this.mainPanel.Width - setting.Width, this.topPanel.Height + 22);
+
+                //传入地图控件
+                setting.MapControl = this.mMapControl;
+
                 //喊话器参数变化
                 setting.TurnOnMegaPhoneEvent += Setting_TurnOnMegaPhoneEvent;
                 setting.RadiusValueChangedEvent += Setting_RadiusValueChangedEvent;
@@ -3046,6 +3052,9 @@ namespace SKYROVER.GCS.DeskTop
                 setting.AfterSinglePodParametersChangedEvent += Setting_AfterSinglePodParametersChangedEvent;
                 setting.SinglePodSwitchedEvent += Setting_SinglePodSwitchedEvent;
                 nacelle = setting.nacelle;
+
+
+
                 setting.Show();
             }
             else {
@@ -3978,6 +3987,11 @@ namespace SKYROVER.GCS.DeskTop
             catch
             {
             }
+        }
+
+        private void connectionControl1_Load(object sender, EventArgs e)
+        {
+
         }
 
 

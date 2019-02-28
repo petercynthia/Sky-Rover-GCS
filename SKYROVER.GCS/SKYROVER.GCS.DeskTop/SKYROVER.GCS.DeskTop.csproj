@@ -146,12 +146,6 @@
       <DependentUpon>ConfigRadioInput.cs</DependentUpon>
     </Compile>
     <Compile Include="Common.cs" />
-    <Compile Include="Component1.cs">
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Include="Component1.Designer.cs">
-      <DependentUpon>Component1.cs</DependentUpon>
-    </Compile>
     <Compile Include="ConfigurationView\ConfigArduplane.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -358,9 +352,6 @@
     </Compile>
     <Compile Include="MessagePanel\ConfigParameters.Designer.cs">
       <DependentUpon>ConfigParameters.cs</DependentUpon>
-    </Compile>
-    <Compile Include="MessagePanel\ImportantInfos.xaml.cs">
-      <DependentUpon>ImportantInfos.xaml</DependentUpon>
     </Compile>
     <Compile Include="MessagePanel\ImportantMessagePanel.cs">
       <SubType>UserControl</SubType>
@@ -1039,10 +1030,6 @@
   </ItemGroup>
   <ItemGroup>
     <Page Include="Controls\QuickView.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="MessagePanel\ImportantInfos.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

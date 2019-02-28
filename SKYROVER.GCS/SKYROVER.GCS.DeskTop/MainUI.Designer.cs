@@ -49,19 +49,19 @@ namespace SKYROVER.GCS.DeskTop
             this.topPanel = new System.Windows.Forms.Panel();
             this.menuPanel = new System.Windows.Forms.TableLayoutPanel();
             this.btnAccount = new System.Windows.Forms.Button();
-            this.btnConnect = new System.Windows.Forms.Button();
             this.btnSetting = new System.Windows.Forms.Button();
             this.btnConfigPlane = new System.Windows.Forms.Button();
             this.btnVideo = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
+            this.connectionControl1 = new SKYROVER.GCS.DeskTop.Controls.ConnectionControl();
+            this.btnConnect = new System.Windows.Forms.Button();
             this.bottomPanel = new System.Windows.Forms.Panel();
             this.bottom_LayoutPanel = new System.Windows.Forms.TableLayoutPanel();
             this.msgInfoPanel = new System.Windows.Forms.RichTextBox();
             this.mainPanel = new System.Windows.Forms.Panel();
             this.bindingSourceQuickTab = new System.Windows.Forms.BindingSource(this.components);
             this.bindingSourceHud = new System.Windows.Forms.BindingSource(this.components);
-            this.connectionControl1 = new SKYROVER.GCS.DeskTop.Controls.ConnectionControl();
             this.topPanel.SuspendLayout();
             this.menuPanel.SuspendLayout();
             this.bottomPanel.SuspendLayout();
@@ -92,7 +92,7 @@ namespace SKYROVER.GCS.DeskTop
             this.menuPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 60F));
             this.menuPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 60F));
             this.menuPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 60F));
-            this.menuPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 109F));
+            this.menuPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 110F));
             this.menuPanel.Controls.Add(this.btnAccount, 10, 0);
             this.menuPanel.Controls.Add(this.btnSetting, 9, 0);
             this.menuPanel.Controls.Add(this.btnConfigPlane, 7, 0);
@@ -114,32 +114,18 @@ namespace SKYROVER.GCS.DeskTop
             this.btnAccount.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnAccount.Dock = System.Windows.Forms.DockStyle.Fill;
             this.btnAccount.ForeColor = System.Drawing.Color.Blue;
-            this.btnAccount.Location = new System.Drawing.Point(1201, 3);
+            this.btnAccount.Location = new System.Drawing.Point(1200, 3);
             this.btnAccount.Name = "btnAccount";
-            this.btnAccount.Size = new System.Drawing.Size(104, 49);
+            this.btnAccount.Size = new System.Drawing.Size(105, 49);
             this.btnAccount.TabIndex = 0;
             this.btnAccount.Text = "用户";
             this.btnAccount.UseVisualStyleBackColor = true;
             this.btnAccount.Click += new System.EventHandler(this.btnAccount_Click);
             // 
-            // btnConnect
-            // 
-            this.btnConnect.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnConnect.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnConnect.Image = global::SKYROVER.GCS.DeskTop.Properties.Resources.light_connect_icon;
-            this.btnConnect.Location = new System.Drawing.Point(567, 3);
-            this.btnConnect.Name = "btnConnect";
-            this.btnConnect.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.btnConnect.Size = new System.Drawing.Size(91, 49);
-            this.btnConnect.TabIndex = 1;
-            this.btnConnect.Tag = "disconnect";
-            this.btnConnect.UseVisualStyleBackColor = true;
-            this.btnConnect.Click += new System.EventHandler(this.btnConnect_Click);
-            // 
             // btnSetting
             // 
             this.btnSetting.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.btnSetting.Location = new System.Drawing.Point(1141, 3);
+            this.btnSetting.Location = new System.Drawing.Point(1140, 3);
             this.btnSetting.Name = "btnSetting";
             this.btnSetting.Size = new System.Drawing.Size(54, 49);
             this.btnSetting.TabIndex = 2;
@@ -150,7 +136,7 @@ namespace SKYROVER.GCS.DeskTop
             // btnConfigPlane
             // 
             this.btnConfigPlane.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.btnConfigPlane.Location = new System.Drawing.Point(1021, 3);
+            this.btnConfigPlane.Location = new System.Drawing.Point(1020, 3);
             this.btnConfigPlane.Name = "btnConfigPlane";
             this.btnConfigPlane.Size = new System.Drawing.Size(54, 49);
             this.btnConfigPlane.TabIndex = 7;
@@ -161,7 +147,7 @@ namespace SKYROVER.GCS.DeskTop
             // btnVideo
             // 
             this.btnVideo.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.btnVideo.Location = new System.Drawing.Point(1081, 3);
+            this.btnVideo.Location = new System.Drawing.Point(1080, 3);
             this.btnVideo.Name = "btnVideo";
             this.btnVideo.Size = new System.Drawing.Size(54, 49);
             this.btnVideo.TabIndex = 8;
@@ -171,7 +157,7 @@ namespace SKYROVER.GCS.DeskTop
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(961, 3);
+            this.button2.Location = new System.Drawing.Point(960, 3);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(54, 49);
             this.button2.TabIndex = 4;
@@ -181,13 +167,36 @@ namespace SKYROVER.GCS.DeskTop
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(901, 3);
+            this.button1.Location = new System.Drawing.Point(900, 3);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(54, 49);
             this.button1.TabIndex = 3;
             this.button1.Text = "测区";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // connectionControl1
+            // 
+            this.connectionControl1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("connectionControl1.BackgroundImage")));
+            this.connectionControl1.Location = new System.Drawing.Point(663, 3);
+            this.connectionControl1.MinimumSize = new System.Drawing.Size(230, 54);
+            this.connectionControl1.Name = "connectionControl1";
+            this.connectionControl1.Size = new System.Drawing.Size(230, 54);
+            this.connectionControl1.TabIndex = 9;
+            // 
+            // btnConnect
+            // 
+            this.btnConnect.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnConnect.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnConnect.Image = global::SKYROVER.GCS.DeskTop.Properties.Resources.light_connect_icon;
+            this.btnConnect.Location = new System.Drawing.Point(566, 3);
+            this.btnConnect.Name = "btnConnect";
+            this.btnConnect.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.btnConnect.Size = new System.Drawing.Size(91, 49);
+            this.btnConnect.TabIndex = 1;
+            this.btnConnect.Tag = "disconnect";
+            this.btnConnect.UseVisualStyleBackColor = true;
+            this.btnConnect.Click += new System.EventHandler(this.btnConnect_Click);
             // 
             // bottomPanel
             // 
@@ -241,15 +250,6 @@ namespace SKYROVER.GCS.DeskTop
             // bindingSourceHud
             // 
             this.bindingSourceHud.DataSource = typeof(MissionPlanner.CurrentState);
-            // 
-            // connectionControl1
-            // 
-            this.connectionControl1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("connectionControl1.BackgroundImage")));
-            this.connectionControl1.Location = new System.Drawing.Point(664, 3);
-            this.connectionControl1.MinimumSize = new System.Drawing.Size(230, 54);
-            this.connectionControl1.Name = "connectionControl1";
-            this.connectionControl1.Size = new System.Drawing.Size(230, 54);
-            this.connectionControl1.TabIndex = 9;
             // 
             // MainUI
             // 
