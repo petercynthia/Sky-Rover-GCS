@@ -41,6 +41,7 @@ namespace SKYROVER.GCS.DeskTop.Controls
         private void btnModify_Click(object sender, EventArgs e)
         {
             SetControlEnable(true);
+            this.btnConfirm.Enabled = true;
         }
         /// <summary>
         /// 
@@ -63,6 +64,7 @@ namespace SKYROVER.GCS.DeskTop.Controls
                                         this.txtServoChanel2.Text,this.txtSC2PWMOn.Text,this.txtSC2PWMOff.Text);
             }
             SetControlEnable(false);
+            this.btnConfirm.Enabled = false;
         }
     }
 }
