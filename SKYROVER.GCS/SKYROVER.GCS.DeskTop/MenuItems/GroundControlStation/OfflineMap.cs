@@ -378,6 +378,8 @@ namespace SKYROVER.GCS.DeskTop.MenuItems.GroundControlStation
                 MessageBox.Show("按住Alt键绘制地图区域", "绘制范围", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
                 return;
             }
+            this.btnCancle.Enabled = true;
+
             var lyrs = mMapControl.Overlays.Where(a => a.Id == "cacheLayer").ToList();
             if (lyrs.Count == 1) this.Overlay = lyrs[0]; // set overlay if you want to see cache progress on the map
 
@@ -427,6 +429,7 @@ namespace SKYROVER.GCS.DeskTop.MenuItems.GroundControlStation
         {
             if(worker!=null)
                 worker.CancelAsync();
+            this.btnCancle.Enabled = false;
         }
     }
 }

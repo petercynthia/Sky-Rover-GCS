@@ -142,6 +142,7 @@
             // btnCancle
             // 
             this.btnCancle.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
+            this.btnCancle.Enabled = false;
             this.btnCancle.Location = new System.Drawing.Point(173, 38);
             this.btnCancle.Name = "btnCancle";
             this.btnCancle.Size = new System.Drawing.Size(95, 30);
