@@ -1,5 +1,7 @@
 ﻿using CellconCore;
 using GMap.NET;
+using MissionPlanner.Controls;
+using MissionPlanner.Utilities;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -33,7 +35,9 @@ namespace SKYROVER.GCS.DeskTop.MenuItems
     /// </summary>
     /// <param name="isConnected">链接为true，断开为false</param>
     public delegate void AfterNacelleConnecteChanged(bool isConnected);
-
+    /// <summary>
+    /// 
+    /// </summary>
     public partial class frmSetting : Form
     {
 
@@ -60,12 +64,14 @@ namespace SKYROVER.GCS.DeskTop.MenuItems
 
         public event TurnOnMegaPhone TurnOnMegaPhoneEvent;
         public event RadiusValueChanged RadiusValueChangedEvent;
-      
+
         public event AfterSinglePodParametersChanged AfterSinglePodParametersChangedEvent;
         public event SinglePodSwitched SinglePodSwitchedEvent;
 
         public Nacelle nacelle;
-
+        private myGMAP mapControl;
+        public myGMAP MapControl { get => mapControl; set=> mapControl= value; }
+        
         //窗體是否顯示
         public bool isShown = false;
 
@@ -86,15 +92,19 @@ namespace SKYROVER.GCS.DeskTop.MenuItems
         {
             isShown = true;
             AnimateWindow(this.Handle, 1000, AW_SLIDE | AW_ACTIVE | AW_HOR_NEGATIVE);
+            //吊舱
             nacelle = this.nacellControl1.nacell;
+            //初始化投掷器
+            InitJettisonConfig();
+
+            //初始化离线地图控件
+            InitOfflineMap();
         }
-
-
-
+       
 
         #region 吊舱   
 
-        
+
 
         //private void singlePodSwitch_SwitchedChanged(object sender)
         //{
@@ -102,8 +112,8 @@ namespace SKYROVER.GCS.DeskTop.MenuItems
         //    if (SinglePodSwitchedEvent != null) SinglePodSwitchedEvent(singlePodSwitch.Switched);
         //}
 
-        
-        
+
+
         #endregion
 
         #region 扩音器
@@ -123,6 +133,50 @@ namespace SKYROVER.GCS.DeskTop.MenuItems
         #endregion
 
         #region 投放器
+        /// <summary>
+        /// 
+        /// </summary>
+        private void InitJettisonConfig()
+        {
+            //获取投掷器参数 
+            string txtServoChanel1 = "";
+            if (Settings.config["txtServoChanel1"] != null)
+                txtServoChanel1 = Settings.config["txtServoChanel1"];
+
+            string txtSC1PWMOn = Settings.config["txtSC1PWMOn"];
+            string txtSC1PWMOff = Settings.config["txtSC1PWMOff"];
+
+            string txtServoChanel2 = Settings.config["txtServoChanel2"];
+            string txtSC2PWMOn = Settings.config["txtSC2PWMOn"];
+            string txtSC2PWMOff = Settings.config["txtSC2PWMOff"];
+
+            this.ctlJettisonConfig1.InitControl(txtServoChanel1, txtSC1PWMOn, txtSC1PWMOff, txtServoChanel2, txtSC1PWMOn, txtSC1PWMOff);
+
+            this.ctlJettisonConfig1.SaveJettisonConfigEvent += CtlJettisonConfig1_SaveJettisonConfigEvent;
+        }
+
+        private void CtlJettisonConfig1_SaveJettisonConfigEvent(string txtServoChanell, string txtSC1PWMOn, string txtSC1PWMOff, string txtServoChanel2, string txtSC2PWMOn, string txtSC2PWMOff)
+        {
+            Settings.config["txtServoChanel1"] = txtServoChanell;
+            Settings.config["txtSC1PWMOn"] = txtSC1PWMOn;
+            Settings.config["txtSC1PWMOff"] = txtSC1PWMOff;
+
+            Settings.config["txtServoChane12"] = txtServoChanel2;
+            Settings.config["txtSC2PWMOn"] = txtSC2PWMOn;
+            Settings.config["txtSC2PWMOff"] = txtSC2PWMOff;
+
+            Settings.Instance.Save();
+        }
+
+
+        #endregion
+
+        #region 离线地图
+
+        private void InitOfflineMap() {
+
+            this.offlineMap1.MMapControl = this.mapControl;
+        }
 
         #endregion
 

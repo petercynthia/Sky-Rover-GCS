@@ -25,7 +25,6 @@ namespace SKYROVER.GCS.DeskTop.Controls
 
 
         private int servoNum;
-
         private int PWM;
         /// <summary>
         /// 设置投掷值
@@ -38,9 +37,30 @@ namespace SKYROVER.GCS.DeskTop.Controls
             this.PWM = PWM;
             locationwp.p1 = servoNum;
             locationwp.p2 = PWM;
+            if (this.servoNum == int.Parse(Settings.config["txtServoChanel1"]))
+            {
+                this.jettisonOne.Checked = true;
+                if (PWM == int.Parse(Settings.config["txtSC1PWMOn"]))
+                {
+                    this.btnSwitch.Switched = true;
+                }
+                else if (PWM == int.Parse(Settings.config["txtSC1PWMOn"]))
+                {
+                    this.btnSwitch.Switched = false;
+                }
+            }
+            else if (this.servoNum == int.Parse(Settings.config["txtServoChanel2"])) {
 
-            if (this.servoNum == 5) this.jettisonOne.Checked = true;
-            else if (this.servoNum == 6) this.jettisonTwo.Checked = true;
+                this.jettisonTwo.Checked = true;
+                if (PWM == int.Parse(Settings.config["txtSC2PWMOn"]))
+                {
+                    this.btnSwitch.Switched = true;
+                }
+                else if (PWM == int.Parse(Settings.config["txtSC2PWMOn"]))
+                {
+                    this.btnSwitch.Switched = false;
+                }
+            }
 
 
         }
@@ -71,12 +91,40 @@ namespace SKYROVER.GCS.DeskTop.Controls
 
         private void jettisonOne_CheckedChanged(object sender, EventArgs e)
         {
-            locationwp.p1 = 5;
+            if (Settings.config["txtServoChanel1"]!=null&&Settings.config["txtSC1PWMOn"] !=null) {
+            
+             locationwp.p1 = float.Parse(Settings.config["txtServoChanel1"]);
+             locationwp.p2= this.PWM;
+            }
         }
 
         private void jettisonTwo_CheckedChanged(object sender, EventArgs e)
         {
-            locationwp.p1 = 6;
+            if (Settings.config["txtServoChanel2"] != null && Settings.config["txtSC2PWMOn"] != null)
+            {
+
+                locationwp.p1 = float.Parse(Settings.config["txtServoChanel2"]);
+                locationwp.p2 = this.PWM;
+            }
+        }
+
+        private void btnSwitch_SwitchedChanged(object sender)
+        {
+            if (btnSwitch.Switched)
+            {
+
+                if (this.jettisonOne.Checked) { this.PWM = int.Parse(Settings.config["txtSC1PWMOn"]); }
+                else if (this.jettisonTwo.Checked) { this.PWM = int.Parse(Settings.config["txtSC2PWMOn"]); }
+
+            }
+            else {
+                
+                if (this.jettisonOne.Checked) { this.PWM = int.Parse(Settings.config["txtSC1PWMOff"]); }
+                else if (this.jettisonTwo.Checked) { this.PWM = int.Parse(Settings.config["txtSC2PWMOff"]); }
+
+              
+            }
+            locationwp.p2 = this.PWM;
         }
     }
 

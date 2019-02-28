@@ -32,6 +32,7 @@
             this.metroSetTabPage3 = new MetroSet_UI.Child.MetroSetTabPage();
             this.metroSetTabControl2 = new MetroSet_UI.Controls.MetroSetTabControl();
             this.metroSetTabPage5 = new MetroSet_UI.Child.MetroSetTabPage();
+            this.nacellControl1 = new SKYROVER.GCS.DeskTop.Payloads.NacellControl();
             this.metroSetTabPage4 = new MetroSet_UI.Child.MetroSetTabPage();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
             this.label10 = new System.Windows.Forms.Label();
@@ -42,6 +43,7 @@
             this.megaPhoneSwtich = new MetroSet_UI.Controls.MetroSetSwitch();
             this.label12 = new System.Windows.Forms.Label();
             this.metroSetTabPage6 = new MetroSet_UI.Child.MetroSetTabPage();
+            this.ctlJettisonConfig1 = new SKYROVER.GCS.DeskTop.Controls.CTLJettisonConfig();
             this.metroSetTabPage1 = new MetroSet_UI.Child.MetroSetTabPage();
             this.metroSetTabControl4 = new MetroSet_UI.Controls.MetroSetTabControl();
             this.metroSetTabPage11 = new MetroSet_UI.Child.MetroSetTabPage();
@@ -57,15 +59,17 @@
             this.configRadioInput1 = new SKYROVER.GCS.DeskTop.Calibration.ConfigRadioInput();
             this.metroSetTabPage10 = new MetroSet_UI.Child.MetroSetTabPage();
             this.configMotorTest1 = new SKYROVER.GCS.DeskTop.Calibration.ConfigMotorTest();
-            this.nacellControl1 = new SKYROVER.GCS.DeskTop.Payloads.NacellControl();
+            this.offlineMap1 = new SKYROVER.GCS.DeskTop.MenuItems.GroundControlStation.OfflineMap();
             this.metroSetTabControl1.SuspendLayout();
             this.metroSetTabPage3.SuspendLayout();
             this.metroSetTabControl2.SuspendLayout();
             this.metroSetTabPage5.SuspendLayout();
             this.metroSetTabPage4.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
+            this.metroSetTabPage6.SuspendLayout();
             this.metroSetTabPage1.SuspendLayout();
             this.metroSetTabControl4.SuspendLayout();
+            this.metroSetTabPage11.SuspendLayout();
             this.metroSetTabPage2.SuspendLayout();
             this.metroSetTabControl3.SuspendLayout();
             this.metroSetTabPage7.SuspendLayout();
@@ -80,14 +84,14 @@
             this.metroSetTabControl1.Controls.Add(this.metroSetTabPage3);
             this.metroSetTabControl1.Controls.Add(this.metroSetTabPage1);
             this.metroSetTabControl1.Controls.Add(this.metroSetTabPage2);
-            this.metroSetTabControl1.Cursor = System.Windows.Forms.Cursors.Default;
+            this.metroSetTabControl1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.metroSetTabControl1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.metroSetTabControl1.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.metroSetTabControl1.ItemSize = new System.Drawing.Size(100, 38);
             this.metroSetTabControl1.Location = new System.Drawing.Point(0, 0);
             this.metroSetTabControl1.Multiline = true;
             this.metroSetTabControl1.Name = "metroSetTabControl1";
-            this.metroSetTabControl1.SelectedIndex = 0;
+            this.metroSetTabControl1.SelectedIndex = 1;
             this.metroSetTabControl1.Size = new System.Drawing.Size(557, 625);
             this.metroSetTabControl1.SizeMode = System.Windows.Forms.TabSizeMode.Fixed;
             this.metroSetTabControl1.Speed = 20;
@@ -127,7 +131,7 @@
             this.metroSetTabControl2.ItemSize = new System.Drawing.Size(100, 38);
             this.metroSetTabControl2.Location = new System.Drawing.Point(0, 0);
             this.metroSetTabControl2.Name = "metroSetTabControl2";
-            this.metroSetTabControl2.SelectedIndex = 0;
+            this.metroSetTabControl2.SelectedIndex = 2;
             this.metroSetTabControl2.Size = new System.Drawing.Size(511, 617);
             this.metroSetTabControl2.SizeMode = System.Windows.Forms.TabSizeMode.Fixed;
             this.metroSetTabControl2.Speed = 20;
@@ -155,6 +159,17 @@
             this.metroSetTabPage5.ThemeAuthor = "Narwin";
             this.metroSetTabPage5.ThemeName = "MetroDark";
             this.metroSetTabPage5.ToolTipText = null;
+            // 
+            // nacellControl1
+            // 
+            this.nacellControl1.BackColor = System.Drawing.Color.Transparent;
+            this.nacellControl1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.nacellControl1.IsNacelleOn = false;
+            this.nacellControl1.Location = new System.Drawing.Point(0, 0);
+            this.nacellControl1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.nacellControl1.Name = "nacellControl1";
+            this.nacellControl1.Size = new System.Drawing.Size(503, 571);
+            this.nacellControl1.TabIndex = 0;
             // 
             // metroSetTabPage4
             // 
@@ -309,6 +324,7 @@
             // metroSetTabPage6
             // 
             this.metroSetTabPage6.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.metroSetTabPage6.Controls.Add(this.ctlJettisonConfig1);
             this.metroSetTabPage6.ImageIndex = 0;
             this.metroSetTabPage6.ImageKey = null;
             this.metroSetTabPage6.Location = new System.Drawing.Point(4, 42);
@@ -321,6 +337,15 @@
             this.metroSetTabPage6.ThemeAuthor = "Narwin";
             this.metroSetTabPage6.ThemeName = "MetroDark";
             this.metroSetTabPage6.ToolTipText = null;
+            // 
+            // ctlJettisonConfig1
+            // 
+            this.ctlJettisonConfig1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.ctlJettisonConfig1.Location = new System.Drawing.Point(0, 0);
+            this.ctlJettisonConfig1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.ctlJettisonConfig1.Name = "ctlJettisonConfig1";
+            this.ctlJettisonConfig1.Size = new System.Drawing.Size(503, 571);
+            this.ctlJettisonConfig1.TabIndex = 0;
             // 
             // metroSetTabPage1
             // 
@@ -350,7 +375,7 @@
             this.metroSetTabControl4.ItemSize = new System.Drawing.Size(100, 38);
             this.metroSetTabControl4.Location = new System.Drawing.Point(0, 0);
             this.metroSetTabControl4.Name = "metroSetTabControl4";
-            this.metroSetTabControl4.SelectedIndex = 2;
+            this.metroSetTabControl4.SelectedIndex = 0;
             this.metroSetTabControl4.Size = new System.Drawing.Size(511, 617);
             this.metroSetTabControl4.SizeMode = System.Windows.Forms.TabSizeMode.Fixed;
             this.metroSetTabControl4.Speed = 20;
@@ -365,6 +390,7 @@
             // metroSetTabPage11
             // 
             this.metroSetTabPage11.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.metroSetTabPage11.Controls.Add(this.offlineMap1);
             this.metroSetTabPage11.ImageIndex = 0;
             this.metroSetTabPage11.ImageKey = null;
             this.metroSetTabPage11.Location = new System.Drawing.Point(4, 42);
@@ -553,16 +579,15 @@
             this.configMotorTest1.Size = new System.Drawing.Size(503, 571);
             this.configMotorTest1.TabIndex = 0;
             // 
-            // nacellControl1
+            // offlineMap1
             // 
-            this.nacellControl1.BackColor = System.Drawing.Color.Transparent;
-            this.nacellControl1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.nacellControl1.IsNacelleOn = false;
-            this.nacellControl1.Location = new System.Drawing.Point(0, 0);
-            this.nacellControl1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.nacellControl1.Name = "nacellControl1";
-            this.nacellControl1.Size = new System.Drawing.Size(503, 571);
-            this.nacellControl1.TabIndex = 0;
+            this.offlineMap1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.offlineMap1.Location = new System.Drawing.Point(0, 0);
+            this.offlineMap1.MMapControl = null;
+            this.offlineMap1.Name = "offlineMap1";
+            this.offlineMap1.ProgressLayer = null;
+            this.offlineMap1.Size = new System.Drawing.Size(503, 571);
+            this.offlineMap1.TabIndex = 0;
             // 
             // frmSetting
             // 
@@ -584,8 +609,10 @@
             this.metroSetTabPage4.ResumeLayout(false);
             this.tableLayoutPanel2.ResumeLayout(false);
             this.tableLayoutPanel2.PerformLayout();
+            this.metroSetTabPage6.ResumeLayout(false);
             this.metroSetTabPage1.ResumeLayout(false);
             this.metroSetTabControl4.ResumeLayout(false);
+            this.metroSetTabPage11.ResumeLayout(false);
             this.metroSetTabPage2.ResumeLayout(false);
             this.metroSetTabControl3.ResumeLayout(false);
             this.metroSetTabPage7.ResumeLayout(false);
@@ -628,5 +655,7 @@
         private System.Windows.Forms.Label lblRadius;
         private System.Windows.Forms.Label label12;
         private Payloads.NacellControl nacellControl1;
+        private Controls.CTLJettisonConfig ctlJettisonConfig1;
+        private GroundControlStation.OfflineMap offlineMap1;
     }
 }
